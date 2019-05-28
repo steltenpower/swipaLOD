@@ -9,6 +9,7 @@ everything to be identified with URL(s):
 1. THIS 'thoughtspace' to work/cooperate in
 2. user, followed by a LOGIN-BUTTON
 3. ontologies available in this thoughtspace. One could make entry convenient by a table like:
+
    |checkbox|name                    |URL        |
    |--------|------------------------|-----------|
    |      V |DC(Dublin Core)         |https://...|
@@ -17,6 +18,7 @@ everything to be identified with URL(s):
    |      V | enter name             | enter URL |
 
 4. LINKspaces (aka triplestores) available in this thoughtspace. One could make entry convenient by a table like:
+
    |checkbox|name                      |URL              |
    |--------|--------------------------|-----------------|
    |      V |DBpedia                   |https://...      |
