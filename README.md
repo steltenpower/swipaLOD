@@ -48,7 +48,7 @@ NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
 | WAITING FOR USER | 
 +------------------+
      ^          \/
-</pre><span style="text-decoration: line-through;">1</span><pre>> > ></pre><span style="text-decoration: line-through;">1</span><pre>           1
+~1~> > >~1~           1
 ^    ^          \/
 ^  +------------------------------------------+
 ^  | if (1 on Node) ==> showingAvailableLINKs |
@@ -62,13 +62,13 @@ NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
 ^  |                       else ==> ListeningForRelation |   ^
 ^  +-----------------------------------------------------+   ^
 ^               \/                                           ^
-^                ~2~                                           ^
+^                ƻ                                           ^
 ^               \/                                           ^
 ^  +-------------------------------------------+             ^
 ^  | if (2 on Canvas) ==> ListeningForConceptB |             ^
 ^  +-------------------------------------------+             ^
 ^       \/         \/                                        ^
-</pre><span style="text-decoration: line-through;">1</span><pre>< <</pre><span style="text-decoration: line-through;">1</span><pre>          2> > > > > > > > > > > > > > > > > > > > > >2
+~1~< <~1~          2> > > > > > > > > > > > > > > > > > > > > >2
 </pre>
 NOT YET PROPERLY RENDERING STATE DIAGRAM ABOVE
 
