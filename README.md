@@ -14,7 +14,7 @@ everything to be identified with URL(s):
 
 For making ontologies (3) easier to enter one could use a table with suggestions like:
 
-|checkbox|name--------------------|URL--------|
+|checkbox|name--------------------|URL        |
 |--------|------------------------|-----------|
 |      V |DC(Dublin Core)         |https://...|
 |        |schema.org              |https://...|
