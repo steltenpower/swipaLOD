@@ -47,7 +47,7 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
      | WAITING FOR USER | 
      +------------------+
          ^          \/
- ̶1> > > ̶>1           1
+ ̶1 > > > ̶1           1
  ^       ^          \/
  ^   +------------------------------------------+
  ^   | if (1 on Node) ==> showingAvailableLINKs |
