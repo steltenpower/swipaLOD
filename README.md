@@ -43,12 +43,12 @@ Relation types are shown along the edge is between.
 The following state diagram defines the main user-interaction, for 2 fingers with touch down (1,2) and touch up (~1~,~2~) events:
 
 NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
-
+<pre>
 +------------------+
 | WAITING FOR USER | 
 +------------------+
      ^          \/
-~1~> > >~1~           1
+</pre><span style="text-decoration: line-through;">1</span><pre>> > ></pre><span style="text-decoration: line-through;">1</span><pre>           1
 ^    ^          \/
 ^  +------------------------------------------+
 ^  | if (1 on Node) ==> showingAvailableLINKs |
@@ -68,8 +68,8 @@ NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
 ^  | if (2 on Canvas) ==> ListeningForConceptB |             ^
 ^  +-------------------------------------------+             ^
 ^       \/         \/                                        ^
-~1~< <~1~          2> > > > > > > > > > > > > > > > > > > > > >2
-
+</pre><span style="text-decoration: line-through;">1</span><pre>< <</pre><span style="text-decoration: line-through;">1</span><pre>          2> > > > > > > > > > > > > > > > > > > > > >2
+</pre>
 NOT YET PROPERLY RENDERING STATE DIAGRAM ABOVE
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
