@@ -16,33 +16,21 @@ For making ontologies (3) easier to enter one could use a table with suggestions
 
 |checkbox|name--------------------|URL--------|
 |--------|------------------------|-----------|
-
 |      V |DC(Dublin Core)         |https://...|
-
 |        |schema.org              |https://...|
-
 |      V |FOAF(Friend Of A Friend)|https://...|
-
 |      V | enter name             | enter URL |
 
 For making LINKspaces (4) easier to enter one could use a table with suggestions like:
 
 |checkbox|name                    |URL              |
-
 |--------|------------------------|-----------------|
-
 |      V |DBpedia                 |https://...      |
-
 |        |WikiData                |https://...      |
-
 |      V |WorldCat                |https://...      |
-
 |        |my dataPOD              |https://inrupt...|
-
 |      V |John Doe's dataPOD      |https://...      |
-
 |        |other thoughtspace      |https://...      |
-
 |        |uni's personnel reg.    |https://...      |
 
 
