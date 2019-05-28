@@ -19,6 +19,7 @@ everything to be identified with URL(s):
    |      V |John Doe's dataPOD        |https://...      |
    |        |name of other thoughtspace|https://...      |
    |        |uni's personnel reg.      |https://...      |
+   |      V | enter name               | enter URL       |
 
 4. ontologies available in this thoughtspace. One could make entry convenient by a table like:
 
@@ -29,7 +30,9 @@ everything to be identified with URL(s):
    |      V |FOAF(Friend Of A Friend)|https://...|
    |      V | enter name             | enter URL |
 
-// is there a clear divide between LINKspaces and ontologies? Can ontologies be created in thoughtspaces? Can I refer to a triple somewhere else, as not copying is the point of this all?
+// Is there a clear divide between LINKspaces and ontologies?
+// Can ontologies be created in thoughtspaces?
+// Can I refer to a triple somewhere else, as not copying is the point of this all?
 
 
 #### INTERACTION (write-out of 2_primary-User-Interaction.jpg) :
@@ -42,5 +45,5 @@ The following state diagram defines the main user-interaction, for 2 fingers of 
 TODO: fill in or describe state diagram
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
-Next to the default Train-Of-Thought view (made in SVG+RDFa probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
+Next to the INTERACTION described above, being the default Train-Of-Thought view (made in SVG+RDFa probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
 You can filter any view, by adding SPARQL in the textbox below.
