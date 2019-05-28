@@ -2,7 +2,6 @@
 
 ### A linked mindmapping tool (multi-touch + speech recognition + Linked(Open)Data + keeping-your-flow-UI = quick semantic graph design)
 
-
 #### SETTINGS (write-out of 1_information-space-settings.jpg) :
 
 everything to be identified with URL(s):
@@ -41,7 +40,7 @@ While listening for concepts, matches are searched for in the available LINKspac
 Next to what the ontologies define, also 'undefined' is a valid relation type. Connecting to nodes with a 'relFinder' edge will be interpreted as finding a relation in available LINKspaces with http://www.visualdataweb.org/relfinder.php
 Nodes are drawn or selected where the screen is touched.
 Relation types are shown along the edge is between.
-The following state diagram defines the main user-interaction, for 2 fingers of touch "up" and "down" event.
+The following state diagram defines the main user-interaction, for 2 fingers with touch down (1,2) and touch up (~1~,~2~) events.
 TODO: fill in or describe state diagram
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
