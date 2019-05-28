@@ -46,9 +46,9 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
      +------------------+
      | WAITING FOR USER | 
      +------------------+
-        ^          \/
- ̶1> > > ̶1           1
- ^      ^          \/
+         ^          \/
+ ̶1> > > ̶>1           1
+ ^       ^          \/
  ^   +------------------------------------------+
  ^   | if (1 on Node) ==> showingAvailableLINKs |
  ^   |           else ==> ListeningForConceptA  |
@@ -67,7 +67,7 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
  ^   | if (2 on Canvas) ==> ListeningForConceptB |              ^
  ^   +-------------------------------------------+              ^
  ^       \/        \/                                           ^
- ̶1< < ̶1          2> > > > > > > > > > > > > > > > > > > > > > > 2
+ ̶1< < < < ̶1         2> > > > > > > > > > > > > > > > > > > > > >2
 </pre>
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
