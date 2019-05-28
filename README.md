@@ -42,13 +42,12 @@ Nodes are drawn or selected where the screen is touched.
 Relation types are shown along the edge is between.
 The following state diagram defines the main user-interaction, for 2 fingers with touch down (1,2) and touch up (~1~,~2~) events:
 
-NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
 <pre>
 +------------------+
 | WAITING FOR USER | 
 +------------------+
      ^          \/
-~1~> > >~1~           1
+ ̶1> > > ̶1           1
 ^    ^          \/
 ^  +------------------------------------------+
 ^  | if (1 on Node) ==> showingAvailableLINKs |
@@ -68,9 +67,8 @@ NOT YET PROPERLY RENDERING STATE DIAGRAM BELOW
 ^  | if (2 on Canvas) ==> ListeningForConceptB |             ^
 ^  +-------------------------------------------+             ^
 ^       \/         \/                                        ^
-~1~< <~1~          2> > > > > > > > > > > > > > > > > > > > > >2
+ ̶1< < ̶1          2> > > > > > > > > > > > > > > > > > > > > >2
 </pre>
-NOT YET PROPERLY RENDERING STATE DIAGRAM ABOVE
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
 Next to the INTERACTION described above, being the default Train-Of-Thought view (made in SVG+RDFa probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
