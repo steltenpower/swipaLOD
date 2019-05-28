@@ -43,31 +43,31 @@ Relation types are shown along the edge is between.
 The following state diagram defines the main user-interaction, for 2 fingers with touch down (1,2) and touch up (~1~,~2~) events:
 
 <pre>
-+------------------+
-| WAITING FOR USER | 
-+------------------+
-     ^          \/
+     +------------------+
+     | WAITING FOR USER | 
+     +------------------+
+        ^          \/
  ̶1> > > ̶1           1
-^    ^          \/
-^  +------------------------------------------+
-^  | if (1 on Node) ==> showingAvailableLINKs |
-^  |           else ==> ListeningForConceptA  |
-^  +------------------------------------------+
-^               \/
-^                2< < < < < < < < < < < < < < < < < < < < < <2
-^               \/                                           ^
-^  +-----------------------------------------------------+   ^
-^  | if (2 on Edge/Destination) ==> LinkIntoCanvas       |   ^
-^  |                       else ==> ListeningForRelation |   ^
-^  +-----------------------------------------------------+   ^
-^               \/                                           ^
-^                ƻ                                           ^
-^               \/                                           ^
-^  +-------------------------------------------+             ^
-^  | if (2 on Canvas) ==> ListeningForConceptB |             ^
-^  +-------------------------------------------+             ^
-^       \/         \/                                        ^
- ̶1< < ̶1          2> > > > > > > > > > > > > > > > > > > > > >2
+ ^      ^          \/
+ ^   +------------------------------------------+
+ ^   | if (1 on Node) ==> showingAvailableLINKs |
+ ^   |           else ==> ListeningForConceptA  |
+ ^   +------------------------------------------+
+ ^                 \/
+ ^                  2< < < < < < < < < < < < < < < < < < < < < <2
+ ^                 \/                                           ^
+ ^   +-----------------------------------------------------+    ^
+ ^   | if (2 on Edge/Destination) ==> LinkIntoCanvas       |    ^
+ ^   |                       else ==> ListeningForRelation |    ^
+ ^   +-----------------------------------------------------+    ^
+ ^                 \/                                           ^
+ ^                  ƻ                                           ^
+ ^                 \/                                           ^
+ ^   +-------------------------------------------+              ^
+ ^   | if (2 on Canvas) ==> ListeningForConceptB |              ^
+ ^   +-------------------------------------------+              ^
+ ^       \/        \/                                           ^
+ ̶1< < ̶1          2> > > > > > > > > > > > > > > > > > > > > > > 2
 </pre>
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
