@@ -43,4 +43,4 @@ TODO: fill in or describe state diagram
 
 #### FILTERED VIEWS (write-out of 3_other-filtered-views.jpg) :
 Next to the default Train-Of-Thought view (made in SVG+RDFa probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
-You can filter any view, by adding SPARQL in the text area below.
+You can filter any view, by adding SPARQL in the textbox below.
