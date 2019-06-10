@@ -6,8 +6,8 @@
 
 everything to be identified with URL(s):
 1. user, followed by a LOGIN-BUTTON
-2. THIS (shared) canvas or 'thoughtspace' to work/cooperate in
-3. additional LINKspaces (aka triplestores) available from which concepts and relations can be referred to from within this thoughtspace. One could make entry convenient by a table like:
+2. THIS (shared) reasoning canvas to work/cooperate in
+3. additional LINKspaces (aka triplestores) available from which concepts and relations can be referred to from within this canvas. One could make entry convenient by a table like:
 
    |checkbox|name                      |URL              |
    |--------|--------------------------|-----------------|
@@ -20,7 +20,7 @@ everything to be identified with URL(s):
    |        |uni's personnel reg.      |https://...      |
    |      V | enter name               | enter URL       |
 
-4. ontologies available in this thoughtspace. One could make entry convenient by a table like:
+4. ontologies available in this canvas. One could make entry convenient by a table like:
 
    |checkbox|name                    |URL        |
    |--------|------------------------|-----------|
@@ -73,5 +73,5 @@ I say current as more representations (e.g. N3, JSON-LD) are possible next to de
 
 ##### THINGS I STILL DOUBT ABOUT A BIT:
 - Is there a clear divide between LINKspaces and ontologies?
-- Can ontologies be created in thoughtspaces?
+- Can ontologies be created in the canvas?
 - Can I refer to a triple somewhere else, as not copying is the point of this all?
