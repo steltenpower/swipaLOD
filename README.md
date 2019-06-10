@@ -2,12 +2,12 @@
 
 ### A linked mindmapping tool (multi-touch + speech recognition + Linked(Open)Data + keeping-your-flow-UI = quick semantic graph design)
 
-#### SETTINGS:
+#### PROJECT SETUP:
 
 everything to be identified with URL(s):
 1. user, followed by a LOGIN-BUTTON
-2. THIS 'thoughtspace' to work/cooperate in
-3. additional LINKspaces (aka triplestores) available in this thoughtspace. One could make entry convenient by a table like:
+2. THIS (shared) canvas or 'thoughtspace' to work/cooperate in
+3. additional LINKspaces (aka triplestores) available from which concepts and relations can be referred to from within this thoughtspace. One could make entry convenient by a table like:
 
    |checkbox|name                      |URL              |
    |--------|--------------------------|-----------------|
@@ -30,7 +30,7 @@ everything to be identified with URL(s):
    |      V | enter name             | enter URL |
 
 
-#### INTERACTION:
+#### PRIMARY INTERACTION:
 Train-Of-Thought combines multi-touch with speech recognition (fallback: typing for quick edit) for quickly drawing a semantic graph;
 While listening for concepts, matches are searched for in the available LINKspaces, plus general English is used to name new-to-define concepts. Appearing lists of options don't need a choice immediately; just keep drawing (while options load and logic filters them).
 Next to what the ontologies define, also 'undefined' is a valid relation type. Connecting to nodes with a 'relFinder' edge will be interpreted as finding a relation in available LINKspaces with http://www.visualdataweb.org/relfinder.php
@@ -67,7 +67,7 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
 </pre>
 
 #### FILTERED VIEWS:
-Next to the INTERACTION described above, being the default Train-Of-Thought view (made in SVG+RDFa probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
+Next to the INTERACTION described above, being the default Train-Of-Thought view (made in HTML/SVG with RDFa embedded probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
 You can filter any view, by adding SPARQL in the textbox below.
 
 
