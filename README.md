@@ -66,12 +66,12 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
  ̶1< < < < ̶1         2> > > > > > > > > > > > > > > > > > > > > >2
 </pre>
 
-#### FILTERED VIEWS:
-Next to the INTERACTION described above, being the default Train-Of-Thought view (made in HTML/SVG with RDFa embedded probably), many more visualisations and data notations (e.g. N3, JSON-LD) are possible; use the tabs to switch.
-You can filter any view, by adding SPARQL in the textbox below.
+#### WRITE QUERIES TO FILTER, CHANGE TABS TO ALTERNATIVE VIEWS:
+By adding SPARQL in a textbox, the user can filter the current representation.
+I say current as more representations (e.g. N3, JSON-LD) are possible next to default one described in the diagram above (probably implemented in HTML5/SVG with RDFa embedded).
 
 
-##### THINGS TO STILL FIGURE OUT:
+##### THINGS I STILL DOUBT ABOUT A BIT:
 - Is there a clear divide between LINKspaces and ontologies?
 - Can ontologies be created in thoughtspaces?
 - Can I refer to a triple somewhere else, as not copying is the point of this all?
