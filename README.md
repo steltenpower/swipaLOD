@@ -74,5 +74,5 @@ I say current as more representations (e.g. N3, JSON-LD) are possible next to de
 ##### THINGS I STILL DOUBT ABOUT A BIT:
 - Is there a clear divide between LINKspaces and ontologies?
 - Can ontologies be created in the canvas?
-- Can I refer to a triple somewhere else, as not copying is the point of this all?
+- Can I refer to a triple somewhere else, as not copying is the point of this all? Sort of, see http://patterns.dataincubator.org/book/reified-statement.html
 - As syntax of SPARQL queries is very similar to one of the RDF notations, can this tool be used to create SPARQL queries?
