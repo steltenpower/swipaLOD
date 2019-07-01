@@ -9,25 +9,28 @@ everything to be identified with URL(s):
 2. THIS (shared) reasoning canvas to work/cooperate in
 3. additional LINKspaces (aka triplestores) available from which concepts and relations can be referred to from within this canvas. One could make entry convenient by a table like:
 
-   |checkbox|name                      |URL              |
-   |--------|--------------------------|-----------------|
-   |      V |DBpedia                   |https://...      |
-   |        |WikiData                  |https://...      |
-   |      V |WorldCat                  |https://...      |
-   |        |my dataPOD                |https://inrupt...|
-   |      V |John Doe's dataPOD        |https://...      |
-   |        |name of other thoughtspace|https://...      |
-   |        |uni's personnel reg.      |https://...      |
-   |      V | enter name               | enter URL       |
+   |checkbox|name                       |URL                                   |
+   |--------|---------------------------|--------------------------------------|
+   |      V |DBpedia                    |https://...                           |
+   |        |WikiData                   |https://...                           |
+   |      V |WorldCat                   |https://...                           |
+   |        |my dataPOD                 |https://inrupt...                     |
+   |      V |John Doe's dataPOD         |https://...                           |
+   |        |name of other thoughtspace |https://...                           |
+   |        |uni's personnel reg.       |https://...                           |
+   |      V | _ _ _ enter name _ _ _    | _ _ _ enter URL _ _ _                |
+   |        | _ _ _ SEARCH _ _ _        | using https://lod-cloud.net/datasets |
 
 4. ontologies available in this canvas. One could make entry convenient by a table like:
 
-   |checkbox|name                    |URL        |
-   |--------|------------------------|-----------|
-   |      V |DC(Dublin Core)         |https://...|
-   |        |schema.org              |https://...|
-   |      V |FOAF(Friend Of A Friend)|https://...|
-   |      V | enter name             | enter URL |
+   |checkbox|name                     |URL                                           |
+   |--------|-------------------------|----------------------------------------------|
+   |      V |DC(Dublin Core)          |https://...                                   |
+   |        |schema.org               |https://...                                   |
+   |      V |FOAF(Friend Of A Friend) |https://...                                   |
+   |      V | _ _ _ enter name _ _ _  | _ _ _ enter URL _ _ _                        |
+   |        | _ _ _ SEARCH _ _ _      | using https://lov.linkeddata.es/dataset/lov/ |
+   
 
 
 #### PRIMARY INTERACTION:
