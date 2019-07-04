@@ -79,3 +79,17 @@ I say current as more representations (e.g. N3, JSON-LD) are possible next to de
 - Can ontologies be created in the canvas?
 - Can I refer to a triple somewhere else, as not copying is the point of this all? Sort of, see http://patterns.dataincubator.org/book/reified-statement.html
 - As syntax of SPARQL queries is very similar to one of the RDF notations, can this tool be used to create SPARQL queries?
+
+
+Coding hints for multi-touch:
+
+https://github.com/jquery/PEP
+http://usefulangle.com/post/28/javascript-handling-multi-touch-with-pointer-events
+https://technet.microsoft.com/en-us/windowsserver/hh673557(v=msdn.10).aspx
+https://www.sitepoint.com/unifying-touch-and-mouse-with-pointer-events/
+https://github.com/mdn/dom-examples/blob/master/pointerevents/Multi-touch_interaction.html
+https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
+https://patrickhlauke.github.io/touch/
+https://docs.microsoft.com/en-us/windows/uwp/design/input/handle-pointer-input
+https://w3c.github.io/pointerevents/
+http://steltenpower.com/pointers.html
