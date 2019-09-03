@@ -1,0 +1,29 @@
+(left) finger A
+
+touch circle A
+text field with microphone A
+
+sound A
+recognizing text A
+
+right finger B
+
+touch circle B
+search results A
+(middle) text field with microphone REL
+
+sound REL
+recognizing text REL
+
+remove touch circle B
+search results REL
+text field with microphone B
+
+sound B
+recognizing text B
+
+remove touch circle A
+search results B
+
+=====================================
+
