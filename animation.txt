@@ -1,3 +1,5 @@
+The simplest way to create version 0 of an animation for me would probably have only SMIL-animated SVG <text> objects
+
 =======================
 SET UP OF LINK SPACES:
 =======================
