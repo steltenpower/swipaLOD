@@ -1,9 +1,10 @@
-The simplest way to create version 0 of an animation for me would probably be:
+The simplest way to create version 0 of a video explainer for me would probably be:
 -quick&dirty draw all things (in Inkscape or something)
--everything with the same timing goes in the same group
+-everything with the same timing goes in the same SVG group
 -order the groups so the 1st to fade in is the 1st <g>
--add empty <g>'s for fading in: where id's mention id's to fade out e.g. "remove..."
+-add empty <g>'s for fading out: where id's mention other id's to fade out e.g. "remove..."
 -add a script that for every time you hit the space bar jumps to the next <g> and does the fade in/out
+-use your foot to cue, time touches on the screen accordingly, while talking, capture video from above the screen
 
 =======================
 SET UP OF LINK SPACES:
