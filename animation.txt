@@ -1,4 +1,7 @@
 The simplest way to create version 0 of a video explainer for me would probably be:
+Videotape me drawing the thing with a sharpie while talking
+
+The simplest way to create version 0.1 of a video explainer for me would probably be:
 -quick&dirty draw all things (in Inkscape or something)
 -everything with the same timing goes in the same SVG group
 -order the groups so the 1st to fade in is the 1st <g>
