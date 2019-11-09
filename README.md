@@ -1,6 +1,6 @@
 # Train Of Thought
 
-### A linked mindmapping tool (multi-touch + speech recognition + Linked(Open)Data + keeping-your-flow-UI = quick semantic graph design)
+### (An idea for) a linked mindmapping tool (multi-touch + speech recognition + Linked(Open)Data + keeping-your-flow-UI = quick semantic graph design)
 
 #### PROJECT SETUP:
 
