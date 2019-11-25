@@ -2,7 +2,9 @@
 
 ### (An idea for) a linked mindmapping tool (multi-touch + speech recognition + [Linked(Open)Data](https://en.wikipedia.org/wiki/Linked_data) + keeping-your-flow-UI = quick semantic graph design)
 
-INSERT HERE: VIDEOS of me faking the software with pen and paper while talking
+* The idea from a user point of view is at the moment best shown in the drafts photographed and saved here as A, B, C, etc. *
+
+For more technical (and slightly outdated compared to these photographs) details, keep reading
 
 #### PROJECT SETUP:
 
