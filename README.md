@@ -2,9 +2,23 @@
 
 ### (An idea for) a linked mindmapping tool (multi-touch + speech recognition + [Linked(Open)Data](https://en.wikipedia.org/wiki/Linked_data) + keeping-your-flow-UI = quick semantic graph design)
 
-*The idea from a user point of view is at the moment best shown in the drafts photographed and saved here as user-A-..., user-B-..., user-C-..., etc.*
+*The idea from a user point of view is at the moment best shown in the drafts photographed and saved here as user-A-..., user-B-..., user-C-..., etc. :*
 
-For more technical (and slightly outdated compared to these photographs) details, keep reading
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-A-title.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-B-select-LDcloud.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-C-draw-triple.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-D-extend-visual-reasoning.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-E-find-routes.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-F-views-and-filters.jpg)
+
+[](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-G-github-END.jpg)
+
+Only for more technical (and slightly outdated compared to these photographs) details, keep reading
 
 #### PROJECT SETUP:
 
