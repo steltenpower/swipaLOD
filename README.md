@@ -18,7 +18,9 @@
 
 [G-github-END](https://raw.githubusercontent.com/steltenpower/Train-Of-Thought/master/user-G-github-END.jpg)
 
-Only for more technical (and slightly outdated compared to these photographs) details, keep reading
+Only for more technical (and slightly outdated compared to these photographs) details, keep reading ...
+
+
 
 #### PROJECT SETUP:
 
