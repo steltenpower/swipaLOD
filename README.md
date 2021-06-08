@@ -111,8 +111,7 @@ OR does it need RDF*'s Lois Lane construct as mentioned in https://douroucouli.w
 - http://usefulangle.com/post/28/javascript-handling-multi-touch-with-pointer-events
 - https://technet.microsoft.com/en-us/windowsserver/hh673557(v=msdn.10).aspx
 - https://www.sitepoint.com/unifying-touch-and-mouse-with-pointer-events/
-- https://github.com/mdn/dom-examples/blob/master/pointerevents/Multi-touch_interaction.html
-- https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
+- https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
 - https://patrickhlauke.github.io/touch/
 - https://docs.microsoft.com/en-us/windows/uwp/design/input/handle-pointer-input
 - https://w3c.github.io/pointerevents/
