@@ -116,3 +116,5 @@ OR does it need RDF*'s Lois Lane construct as mentioned in https://douroucouli.w
 - https://docs.microsoft.com/en-us/windows/uwp/design/input/handle-pointer-input
 - https://w3c.github.io/pointerevents/
 - http://steltenpower.com/pointers.html 
+- https://m-ld.org/news/#collaboratenable
+- 
