@@ -89,6 +89,13 @@ The following state diagram defines the main user-interaction, for 2 fingers wit
  ^       \/        \/                                           ^
  ̶1< < < < ̶1         2> > > > > > > > > > > > > > > > > > > > > >2
 </pre>
+OR, as most screens of any decent size are not multi-touch, better stick to single-touch/mouse
+<pre>
+ARB=DOWN_ON_CANVAS,SPEAK_A,START_MOVING,SPEAK_R,UP,SPEAK_B,SILENCE
+A=DOWN_ON_CANVAS,SPEAK_A,UP
+RB=,START_MOVING_ON_A_OR_CANVAS_AS_IMPLIED_A,SPEAK_R,UP,SPEAK_B
+SHOW_PROPS_OR_HIDE=CLICK_NODE, SELECT_PROPS=CLICK_PROP
+</pre>
 
 #### WRITE QUERIES TO FILTER, CHANGE TABS TO ALTERNATIVE VIEWS:
 By adding SPARQL in a textbox, the user can filter the current representation.
