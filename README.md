@@ -1,4 +1,4 @@
-#Train of Thought
+# Train of Thought
 (mindmapping with the power of Linked Data in your fingertips)
 
 In our associative brains information is linked, forming a network.
