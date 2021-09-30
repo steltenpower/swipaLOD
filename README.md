@@ -1,3 +1,6 @@
+#Train of Thought
+(mindmapping with the power of Linked Data in your fingertips)
+
 In our associative brains information is linked, forming a network.
 Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software. In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 A statement called a triple: Something A has some kind of relation R with something B.
@@ -8,7 +11,9 @@ The answers can be used to generate visualisations. Train-of-Thought is an envi
 - Text fields get “Did you mean …?” options below, found in external databases to pick.
 - External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling with the same interaction context). Touching multiple nodes shows routes between them, a feature seen before on DBpedia.
 - A wikidata-like query-builder and result visualizer gives reasoning power to power users, with almost no coding needed by the user still.
-- Created data will be shareable to other Linked Data users and projects. It will be build to work in the web browser. In this project speech recognition and multi-user capabilities are not yet included 
+- Created data will be shareable to other Linked Data users and projects.
+- It will be build to work in the web browser.
+- In this project speech recognition and multi-user capabilities are not yet included 
 
 
 # >> WARNING: below this line much is messy and outdated <<
