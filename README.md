@@ -9,7 +9,7 @@ Triples pointing from one graph to another allow for asking structured questions
 The answers can be used to generate visualisations. Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping with the standardized reasoning power of Linked Data:
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; nodes, edge and text fields
 - Text fields get “Did you mean …?” options below, found in external databases to pick.
-- External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling with the same interaction context). Touching multiple nodes shows routes between them, a feature seen before on DBpedia.
+- External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them, a feature seen before on DBpedia.
 - A wikidata-like query-builder and result visualizer gives reasoning power to power users, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
 - It will be build to work in the web browser.
