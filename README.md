@@ -8,7 +8,7 @@ A graph: a collection of connected triples.
 Triples pointing from one graph to another allow for asking structured questions to a combination of graphs.
 The answers can be used to generate visualisations. Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping with the standardized reasoning power of Linked Data:
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; nodes, edge and text fields
-- Text fields get “Did you mean …?” options below, found in external databases to pick.
+- Text fields get “Did you mean …?” options below, found in external databases and vocabularies to pick.
 - External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them using [RelFinder](http://www.visualdataweb.org/relfinder.php).
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
@@ -16,9 +16,10 @@ The answers can be used to generate visualisations. Train-of-Thought is an envi
 - Train-of-Thought will be built in the browser.
 
 
-# >> WARNING: below this line much is messy and outdated <<
+# >> WARNING: everything below is outdated and messy <<
 
-# Train Of Thought
+
+
 <img src="https://repository-images.githubusercontent.com/103260748/0559bb80-72a1-11eb-9df9-7ef50042c55f">
 
 ### (An idea for) a linked mindmapping tool (multi-touch + speech recognition + [Linked(Open)Data](https://en.wikipedia.org/wiki/Linked_data) + keeping-your-flow-UI = quick semantic graph design)
