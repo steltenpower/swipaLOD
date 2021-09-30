@@ -1,4 +1,17 @@
-# >> WARNING: MESSY and not up-to date. <<
+In our associative brains information is linked, forming a network.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software. In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
+A statement called a triple: Something A has some kind of relation R with something B.
+A graph: a collection of connected triples.
+Triples pointing from one graph to another allow for asking structured questions to a combination of graphs.
+The answers can be used to generate visualisations. Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping with the standardized reasoning power of Linked Data:
+- With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; nodes, edge and text fields
+- Text fields get “Did you mean …?” options below, found in external databases to pick.
+- External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling with the same interaction context). Touching multiple nodes shows routes between them, a feature seen before on DBpedia.
+- A wikidata-like query-builder and result visualizer gives reasoning power to power users, with almost no coding needed by the user still.
+- Created data will be shareable to other Linked Data users and projects. It will be build to work in the web browser. In this project speech recognition and multi-user capabilities are not yet included 
+
+
+# >> WARNING: below this line much is messy and outdated <<
 
 # Train Of Thought
 <img src="https://repository-images.githubusercontent.com/103260748/0559bb80-72a1-11eb-9df9-7ef50042c55f">
