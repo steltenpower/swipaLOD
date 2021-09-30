@@ -10,10 +10,10 @@ The answers can be used to generate visualisations. Train-of-Thought is an envi
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; nodes, edge and text fields
 - Text fields get “Did you mean …?” options below, found in external databases to pick.
 - External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them, a feature seen before on DBpedia.
-- A wikidata-like query-builder and result visualizer gives reasoning power to power users, with almost no coding needed by the user still.
+- A wikidata-like query-builder and result visualizer gives reasoning power, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
 - It will be build to work in the web browser.
-- In this project speech recognition and multi-user capabilities are not yet included 
+- Speech recognition and multi-user capabilities might be added at some point.
 
 
 # >> WARNING: below this line much is messy and outdated <<
