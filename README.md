@@ -1,5 +1,5 @@
 # Train of Thought
-(mindmapping with the power of Linked Data in your fingertips)
+(mindmapping with the power of Linked Data in your fingertips. A web application)
 
 In our associative brains information is linked, forming a network.
 Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software.
@@ -16,7 +16,6 @@ Train-of-Thought is an envisioned combination of much of the visual freedom of m
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
 - Speech recognition and multi-user capabilities might be added at some point.
-- Train-of-Thought will be built in the browser.
 
 
 # >> WARNING: everything below is outdated and messy <<
