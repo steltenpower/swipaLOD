@@ -2,10 +2,12 @@
 (mindmapping with the power of Linked Data in your fingertips)
 
 In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software. In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
-A statement called a triple: Something A has some kind of relation R with something B.
-A graph: a collection of connected triples.
-Triples pointing from one graph to another allow for asking structured questions to a combination of graphs.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software.
+
+In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
+A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
+A **graph**: a collection of connected triples.
+Triples pointing from one graph to another allow for **querying a combination of graphs**.
 The answers can be used to generate visualisations. Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping with the standardized reasoning power of Linked Data:
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; nodes, edge and text fields
 - Text fields get “Did you mean …?” options below, found in external databases and vocabularies to pick.
