@@ -15,7 +15,7 @@ Train-of-Thought is an envisioned combination of much of the visual freedom of m
 - External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them using [RelFinder](http://www.visualdataweb.org/relfinder.php).
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
-- Speech recognition and multi-user capabilities might be added at some point.
+- With speech recognition and multi-user capabilities the fun really starts.
 
 
 # >> WARNING: everything below is outdated and messy <<
