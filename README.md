@@ -135,7 +135,9 @@ OR does it need RDF*'s Lois Lane construct as mentioned in https://douroucouli.w
 
 
 
-####Coding hints for multi-touch:
+####Coding hints:
+
+- https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-star/
 
 - https://github.com/jquery/PEP
 - http://usefulangle.com/post/28/javascript-handling-multi-touch-with-pointer-events
