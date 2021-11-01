@@ -17,6 +17,10 @@ Train-of-Thought is an envisioned combination of much of the visual freedom of m
 - Created data will be shareable to other Linked Data users and projects.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 - The tool should be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
+- Maybe it can be nicely combined with [Knowledge Dock](https://github.com/steltenpower/KnowledgeDock).
+One allows the user sloppyness in manually drawing a graph, the other allows the user to type a text. In both cases the computer suggests more specific meaning. Maybe they can be synchronized for the current result or maybe even through time by scrolling the story.
+- of course all sorts of custom views can be added
+- Search engines love RDF(a) too.
 
 # >> WARNING: below is a bit of an outdated mess <<
 
