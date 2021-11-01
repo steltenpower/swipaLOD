@@ -10,12 +10,12 @@ In machines through standardized notation and vocabularies a similar associating
 - Triples pointing from one graph to another allow for **querying a combination of graphs**, for which answers can be immediately visualized.
 
 Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping, possibly faster than freehand, with the standardized reasoning power of Linked Data:
-- With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; new nodes, edge and **optional** text fields
-- Text fields get “Did you mean …?” options below, found in external databases and vocabularies to pick.
+- With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; an arrow with 3 locations for **optional** text: before+along+after. With speech recognition one could fill any or all of those text locations during the flicking already. One of course also just type it, after the flicking.
+- Text fields get (a list of) “Did you mean …?” options below, found in external databases and vocabularies to pick. These suggestions can be anything in between very basic and a smart combination of speech recognition, graph reasoning and statistics combined.
 - External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them using [RelFinder](http://www.visualdataweb.org/relfinder.php).
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - Created data will be shareable to other Linked Data users and projects.
-- With speech recognition and multi-user capabilities the fun really starts.
+- Live sharing, or multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 
 
 # >> WARNING: below is a bit of an outdated mess <<
