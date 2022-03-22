@@ -7,7 +7,7 @@ Many people communicate subsets visually through free-form mindmaps, or more str
 In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 - A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
 - A **graph**: a collection of connected triples.
-- Triples pointing from one graph to another allow for **querying a combination of graphs**, for which answers can be immediately visualized.
+- Triples pointing from one graph to another graph somewhere else allow for **querying a combination of graphs**, for which answers can be immediately visualized.
 
 Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping, possibly faster than freehand, with the standardized reasoning power of Linked Data:
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; an arrow with 3 locations for **optional** text: before+along+after. With speech recognition one could fill any or all of those text locations during the flicking already, as faked in https://steltenpower.github.io/flowchat/. Or just type it afterwards.
