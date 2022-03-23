@@ -22,6 +22,15 @@ One allows the user sloppyness in manually drawing a graph, the other allows the
 - of course all sorts of custom views can be added
 - Search engines love RDF(a) too.
 
+New thoughts overruling some of the above, based on a aquarium metaphor:
+- Imagine a combination of graphs as being an aquarium full of (connected) nodes, including nodes following the RDFmodel of HTML
+- One side of the aquarium (or just part of it when zoomed in) is your screen
+- On this screen you can scribble free-form additional manual nodes
+- Manual nodes are surrounded by similar existin g nodes. When one is dragged onto the manual node, the latter will be deleted and replaced by the first
+- There's a sort of optical parameter for how close nodes are to the screen, or how much smaller/lighter they are depicted
+- SPARQL-ing, or simplified filtering (only these graphs/vocabulaires) takes a view within the total set, aka temporarily hides a subset
+- When you select multiple nodes IN the screen, the surrounding nodes part of the shortest routes connecting the selected nodes will be appear the closest to the screen
+
 # >> WARNING: below is a bit of an outdated mess <<
 
 
