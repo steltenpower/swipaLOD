@@ -30,7 +30,7 @@ New thoughts overruling some of the above, based on a aquarium metaphor:
 - There's a sort of optical parameter for how close nodes are to the screen, or how much smaller/lighter they are depicted
 - SPARQL-ing, or simplified filtering (only these graphs/vocabulaires) takes a view within the total set, aka temporarily hides a subset
 - When you select multiple nodes IN the screen, the surrounding nodes part of the shortest routes connecting the selected nodes will be appear the closest to the screen
-
+- It's actually already useful to show the number of hops to go fron 1 node to another
 # >> WARNING: below is a bit of an outdated mess <<
 
 
