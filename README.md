@@ -31,6 +31,19 @@ New thoughts overruling some of the above, based on a aquarium metaphor:
 - SPARQL-ing, or simplified filtering (only these graphs/vocabulaires) takes a view within the total set, aka temporarily hides a subset
 - When you select multiple nodes IN the screen, the surrounding nodes part of the shortest routes connecting the selected nodes will be appear the closest to the screen
 - It's actually already useful to show the number of hops to go fron 1 node to another
+
+# datastructure
+Nodes can have:
+- IsOnSurface with x and y
+- namespace copied from "current namespace to sketch in"
+- maybe a 'selected' state
+
+There's a scroll button for how crowded you want your screen
+
+
+
+
+
 # >> WARNING: below is a bit of an outdated mess <<
 
 
