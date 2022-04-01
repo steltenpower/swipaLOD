@@ -7,6 +7,7 @@ Very quickly hand draw a graph combining new nodes and edges and those already a
 Imagine a horizontal transparent layer to hold the mindgraph:
 - On top of it new nodes and edges are drawn
 - Pinned against the bottom of it are some 'outer' nodes and edges.
+
 Outer nodes that are not part of the mindgraph layer hang by their nodes downward into 3D space (how deep is linear to the number of hops from the mindgraph layer, x and y are also effected cause nodes slightly repel each other). It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
 
 ## Drawing process
