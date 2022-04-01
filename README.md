@@ -1,17 +1,29 @@
 # Train of Thought
-(mindmapping with the power of Linked Data in your fingertips. A web application)
 
-In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software.
+## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable graph with higher dimension)
+Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'outer' web, in Linked Data format. SHOW THIS WITH A VARIATION ON 'THE MONA LISA GRAPH'
 
-In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
-- A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
-- A **graph**: a collection of connected triples.
-- Triples pointing from one graph to another graph somewhere else, allow for **querying a combination of graphs**, for which answers can be immediately visualized.
+## A MENTAL MODEL FOR THE DATA MODEL
+Imagine a horizontal transparent layer to hold the mindgraph:
+- On top of it new nodes and edges are drawn
+- Pinned against the bottom of it are some 'outer' nodes and edges.
+Outer nodes that are not part of the mindgraph layer hang by their nodes downward into 3D space (how deep is linear to the number of hops from the mindgraph layer, x and y are also effected cause nodes slightly repel each other). It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
 
-Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping, possibly faster than freehand, with the standardized reasoning power of Linked Data:
-- With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; an arrow with 3 locations for **optional** text: before+along+after. With speech recognition one could fill any or all of those text locations during the flicking already, as faked in https://steltenpower.github.io/flowchat/. Or just type it afterwards.
-- Similar if one or 2 of the nodes already exist
+## Drawing process
+- Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text: before+along+after (where the first and/or last could already exist there)
+- Elements not in the mindgraph yet can be tapped to pin them into it, if they're part of the visual subset. Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/found and in/below mindgraph). What is in the visual subset will depend on depth and probably other factors.
+- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning your vague mention became a concept already strictly defined somewhere.
+
+---
+
+Interpret the HTML web as RDF as well, possibly with the vocabulary made bythat the guy who presented about Linked Data and de miljoenennota on PLDN.
+
+ (at the bottom of this page explain Linked Data in general with the Mona Lisa image, specifically how you can query a combination of graphs).
+ 
+===
+
+# The too verbose version:
+
 - Manual added nodes will be surrounded by fuzzy-related nodes from searchspace (the current selected subset of LODcloud).
 - A "replaces" 'relation' brings all the links from both onto one node and deletes the other
 - Manual added relations get suggestions for relation types available in vocab search space. Pick one, or confirm the new one
@@ -34,6 +46,17 @@ Nodes can have:
 - namespace copied from "current namespace to sketch in"
 - maybe a 'selected' state
 
+---
+
+In our associative brains information is linked, forming a network.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software.
+
+In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
+- A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
+- A **graph**: a collection of connected triples.
+- Triples pointing from one graph to another graph somewhere else, allow for **querying a combination of graphs**, for which answers can be immediately visualized.
+
+---
 
 # >> WARNING: below is a bit of an outdated mess <<
 
@@ -166,4 +189,4 @@ OR does it need RDF*'s Lois Lane construct as mentioned in https://douroucouli.w
 - https://w3c.github.io/pointerevents/
 - http://steltenpower.com/pointers.html 
 - https://m-ld.org/news/#collaboratenable
-
+- https://steltenpower.github.io/flowchat/
