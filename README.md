@@ -11,7 +11,7 @@ Imagine a horizontal transparent layer to hold the mindgraph:
 Outer nodes that are not part of the mindgraph layer hang by their edges downward into 3D space (how deep is linear to the number of hops from the mindgraph layer, x and y are also effected cause nodes slightly repel each other). It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
 
 ## Drawing process
-- Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text: before+along+after (where the first and/or last could already exist there)
+- Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
 - Elements not in the mindgraph yet can be tapped to pin them into it, if they're part of the visual subset. Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/found and in/below mindgraph. Imagine the mindgraph layer to be infinitesimally thin, so upper and bottom side are merged, if you need it for imagening). What is in the visual subset will depend on depth and probably other factors.
 - A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning your vague mention became a concept already strictly defined somewhere.
 
