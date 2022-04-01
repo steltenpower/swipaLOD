@@ -1,7 +1,7 @@
 # Train of Thought
 
 ## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable graph with higher dimension)
-Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'found' web, in Linked Data format. SHOW THIS WITH A VARIATION ON 'THE MONA LISA GRAPH'
+Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'found' web, in Linked Data format. SHOW THIS WITH A VARIATION ON 'THE MONA LISA GRAPH' TO HAVE 1 QUERY WORK ON COMBINATION OF GRAPHS
 
 ## A MENTAL MODEL FOR THE DATA MODEL
 Imagine a horizontal transparent layer to hold the mindgraph:
@@ -15,12 +15,12 @@ Outer nodes that are not part of the mindgraph layer hang by their edges downwar
 - Elements not in the mindgraph yet can be tapped to pin them into it, if they're part of the visual subset. Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/found and in/below mindgraph. Imagine the mindgraph layer to be infinitesimally thin, so upper and bottom side are merged, if you need it for imagening). What is in the visual subset will depend on depth and probably other factors.
 - A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning your vague mention became a concept already strictly defined somewhere.
 
+Manual added relations get suggestions for relation types available in vocab search space. Pick one, or confirm the new one
+
 ---
 
 Interpret the HTML web as RDF as well, possibly with the vocabulary made bythat the guy who presented about Linked Data and de miljoenennota on PLDN.
 
- (at the bottom of this page explain Linked Data in general with the Mona Lisa image, specifically how you can query a combination of graphs).
- 
 ===
 
 # The too verbose version:
