@@ -11,9 +11,13 @@ In machines through standardized notation and vocabularies a similar associating
 
 Train-of-Thought is an envisioned combination of much of the visual freedom of mindmapping, possibly faster than freehand, with the standardized reasoning power of Linked Data:
 - With the flick of a finger a triple is drawn on the ‘visual reasoning canvas’; an arrow with 3 locations for **optional** text: before+along+after. With speech recognition one could fill any or all of those text locations during the flicking already, as faked in https://steltenpower.github.io/flowchat/. Or just type it afterwards.
-- Manual added nodes will be surrounded by similar nodes from searchspace (the current selected subset of LODcloud). Similarity can be calculated from speech recognition, graph reasoning and statistics combined. Like Googling, but in-context
-- External nodes referred to in canvas, will when touched temporarily show their external relations, which can be selected to stay visible (a sort of Googling within the same interaction context). Touching multiple nodes shows routes between them using [RelFinder](http://www.visualdataweb.org/relfinder.php).
-- A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
+- Similar if one or 2 of the nodes already exist
+- Manual added nodes will be surrounded by fuzzy-related nodes from searchspace (the current selected subset of LODcloud).
+- A "replaces" 'relation' brings all the links from both onto one node and deletes the other
+- Manual added relations get suggestions for relation types available in vocab search space. Pick one, or confirm the new one
+- Cloudnodes can be clicked to stick onto the canvas, to become part of your visual reasoning
+- Next to fuzzy-related nodes and relation type suggestions there are also linked searchnodes fighting (the difficult part) for precious screen space: directly linked, indirectly linked, and a possible preference for finding connections between canvasnodes with [RelFinder](http://www.visualdataweb.org/relfinder.php).
+- Nodes will be shown differently based on type, hops away from canvas and maybe context
 - Created data will be shareable to other Linked Data users and projects.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 - The tool should be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
@@ -21,27 +25,14 @@ Train-of-Thought is an envisioned combination of much of the visual freedom of m
 One allows the user sloppyness in manually drawing a graph, the other allows the user to type a text. In both cases the computer suggests more specific meaning. Maybe they can be synchronized for the current result or maybe even through time by scrolling the story.
 - of course all sorts of custom views can be added
 - Search engines love RDF(a) too.
-
-New thoughts overruling some of the above, based on a aquarium metaphor:
-- Imagine a combination of graphs as being an aquarium full of (connected) nodes, including nodes following the RDFmodel of HTML
-- One side of the aquarium (or just part of it when zoomed in) is your screen
-- On this screen you can scribble free-form additional manual nodes
-- Manual nodes are surrounded by similar existin g nodes. When one is dragged onto the manual node, the latter will be deleted and replaced by the first
-- There's a sort of optical parameter for how close nodes are to the screen, or how much smaller/lighter they are depicted
+- A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - SPARQL-ing, or simplified filtering (only these graphs/vocabulaires) takes a view within the total set, aka temporarily hides a subset
-- When you select multiple nodes IN the screen, the surrounding nodes part of the shortest routes connecting the selected nodes will be appear the closest to the screen
-- It's actually already useful to show the number of hops to go fron 1 node to another
 
 # datastructure
 Nodes can have:
 - IsOnSurface with x and y
 - namespace copied from "current namespace to sketch in"
 - maybe a 'selected' state
-
-There's a scroll button for how crowded you want your screen
-
-
-
 
 
 # >> WARNING: below is a bit of an outdated mess <<
