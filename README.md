@@ -48,6 +48,8 @@ Similar to our associative brains, in machines through standardized notation and
 - A **graph**: a collection of connected triples.
 - Triples pointing from one graph to another graph somewhere else, allow for **querying a combination of graphs**, for which answers can be immediately visualized.
 
+Train of Thought is about combining the usability of a whiteboard with the power of Linked Data.
+
 ---
 
 # >> WARNING: below is a bit of an outdated mess <<
