@@ -1,29 +1,34 @@
 # Train of Thought
 
 ## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
-Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'outer' web.<br>
+Very quickly hand draw a graph combining new nodes and edges and those already available somewhere outside on the web.<br>
 <table><tr><td>Conceptually</td><td>In Linked Data</td></tr><tr><td>
    <img src="https://www.w3.org/TR/rdf11-primer/example-graph.jpg"></td><td>
 <img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
-The fun part of Linked Data is that you can query a combination of graphs
+The fun part of Linked Data is that you can query a combination of graphs, here the blue and the green, as if they were one graph on one system.
 
-## A MENTAL MODEL FOR THE DATA MODEL
+## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THE WEB APP
 Imagine a horizontal transparent layer to hold the mindgraph:
 - On top of it new nodes and edges are drawn
-- Pinned against the bottom of it are some 'outer' nodes and edges.
+- Pinned against the bottom of it are some outside nodes and edges.
 
-Outer nodes that are not part of the mindgraph layer hang by their edges downward into 3D space (how deep is linear to the number of hops from the mindgraph layer, x and y are also effected cause nodes slightly repel each other). It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
+Outside nodes that are not part of the mindgraph layer hang by their edges downward into 3D space.
+How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap nodes seem to slightly repel each other.
+
+It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
 
 ## Drawing process
 - Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
-- Elements not in the mindgraph yet can be tapped to pin them into it, if they're part of the visual subset. Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/found and in/below mindgraph. Imagine the mindgraph layer to be infinitesimally thin, so upper and bottom side are merged, if you need it for imagening). What is in the visual subset will depend on depth and probably other factors.
-- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning your vague mention became a concept already strictly defined somewhere.
-
-Manual added relations get suggestions for relation types available in vocab search space. Pick one, or confirm the new one
+- Elements not in the mindgraph yet can be tapped to pin them into it.
+- Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/outside and in/below mindgraph)
+- Of course you can only pin what is visible, which usually is only a tiny tiny fraction of data available.
+A possibly complex algorithm and a few user controls (zoom, depth, RelFinder, etc.) to steer it, decide what is visible and how detailed or custom, elements are depicted.
+- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention rapidly became a concept already strictly defined elsewhere**.
+- Manual added relations get suggestions for relation type available in vocab search space. Pick one, or confirm the new one.
 
 ---
 
-Interpret the HTML web as RDF as well, possibly with the vocabulary made bythat the guy who presented about Linked Data and de miljoenennota on PLDN.
+Interpret the HTML web as RDF as well, possibly with the vocabulary made by that the guy who presented about Linked Data and de miljoenennota on PLDN.
 
 ===
 
