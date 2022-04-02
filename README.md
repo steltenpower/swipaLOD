@@ -1,7 +1,7 @@
 # Train of Thought
 
 ## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
-Very quickly hand draw a graph combining new nodes and edges and those already available somewhere outside on the web.<br>
+Very quickly hand draw a query-able graph combining new nodes and edges and those already available somewhere outside on the web (while also recording the process including audio).<br>
 <table><tr><td>Conceptually</td><td>In Linked Data</td></tr><tr><td>
    <img src="https://www.w3.org/TR/rdf11-primer/example-graph.jpg"></td><td>
 <img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
@@ -13,33 +13,24 @@ Imagine a horizontal transparent layer to hold the mindgraph:
 - Pinned against the bottom of it are some outside nodes and edges.
 
 Outside nodes that are not part of the mindgraph layer hang by their edges downward into 3D space.
-How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap nodes seem to slightly repel each other.
+How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap, nodes seem to slightly repel each other.
 
-It's as if the mindgraph is a glass lid of a box full of nodes and edges. IMAGE TO ADD
+It's as if the mindgraph is a glass lid on a box full of nodes and edges. IMAGE TO ADD
 
 ## Drawing process
 - Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
 - Elements not in the mindgraph yet can be tapped to pin them into it.
 - Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/outside and in/below mindgraph)
-- Of course you can only pin what is visible, which usually is only a tiny tiny fraction of data available.
-A possibly complex algorithm and a few user controls (zoom, depth, RelFinder, etc.) to steer it, decide what is visible and how detailed or custom, elements are depicted.
-- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention rapidly became a concept already strictly defined elsewhere**.
+- Of course you can only pin what is visible, which usually is only a tiny tiny fraction of data available below the mindgraph.
+A possibly complex algorithm and a few user controls (zoom, depth, SPARQLfilter, [RelFinder](http://www.visualdataweb.org/relfinder.php), etc.) to steer it, decide what is visible and how big, detailed or custom, elements are depicted.
+- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention suddenly became a concept already strictly defined elsewhere**. A sort of opposite is also possible, if you connect with a "ignore suggestions" pseudo-edge, the multiple 'Did you Mean?'-edges will be deleted and the connected nodes will probably drop into the depths.
 - Manual added relations get suggestions for relation type available in vocab search space. Pick one, or confirm the new one.
 
----
-
-Interpret the HTML web as RDF as well, possibly with the vocabulary made by that the guy who presented about Linked Data and de miljoenennota on PLDN.
+## HTML-as-RDF too
+There's so much HTML out there to be used; look into the vocab mentioned in the "miljoenennota" video on PLDN.
 
 ===
 
-# The too verbose version:
-
-- Manual added nodes will be surrounded by fuzzy-related nodes from searchspace (the current selected subset of LODcloud).
-- A "replaces" 'relation' brings all the links from both onto one node and deletes the other
-- Manual added relations get suggestions for relation types available in vocab search space. Pick one, or confirm the new one
-- Cloudnodes can be clicked to stick onto the canvas, to become part of your visual reasoning
-- Next to fuzzy-related nodes and relation type suggestions there are also linked searchnodes fighting (the difficult part) for precious screen space: directly linked, indirectly linked, and a possible preference for finding connections between canvasnodes with [RelFinder](http://www.visualdataweb.org/relfinder.php).
-- Nodes will be shown differently based on type, hops away from canvas and maybe context
 - Created data will be shareable to other Linked Data users and projects.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 - The tool should be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
@@ -48,13 +39,7 @@ One allows the user sloppyness in manually drawing a graph, the other allows the
 - of course all sorts of custom views can be added
 - Search engines love RDF(a) too.
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
-- SPARQL-ing, or simplified filtering (only these graphs/vocabulaires) takes a view within the total set, aka temporarily hides a subset
-
-# datastructure
-Nodes can have:
-- IsOnSurface with x and y
-- namespace copied from "current namespace to sketch in"
-- maybe a 'selected' state
+- To not copy nodes or edges, RDF* will be used
 
 ---
 
