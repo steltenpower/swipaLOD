@@ -50,7 +50,7 @@ Similar to our associative brains, in machines through standardized notation and
 
 Train of Thought is about combining the usability of a whiteboard with the power of Linked Data.
 
-## OLD, SOMETIMES OUTDATED, SKETCHES AND STUFF
+## FROM HERE ON: OLD, SOMETIMES OUTDATED, SKETCHES AND STUFF
 
 <img src="https://repository-images.githubusercontent.com/103260748/0559bb80-72a1-11eb-9df9-7ef50042c55f">
 
