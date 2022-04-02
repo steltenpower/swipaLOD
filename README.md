@@ -26,27 +26,24 @@ A possibly complex algorithm and a few user controls (zoom, depth, SPARQLfilter,
 - A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention suddenly became a concept already strictly defined elsewhere**. A sort of opposite is also possible, if you connect with a "ignore suggestions" pseudo-edge, the multiple 'Did you Mean?'-edges will be deleted and the connected nodes will probably drop into the depths.
 - Manual added relations get suggestions for relation type available in vocab search space. Pick one, or confirm the new one.
 
-## HTML-as-RDF too
-There's so much HTML out there to be used; look into the vocab mentioned in the "miljoenennota" video on PLDN.
-
-===
-
+## What more, possibly
+- There's so much HTML out there to be used; look into the vocab mentioned in the "miljoenennota" video on PLDN.
 - Created data will be shareable to other Linked Data users and projects.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
-- The tool should be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
+- The tool should ideally be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
 - Maybe it can be nicely combined with [Knowledge Dock](https://github.com/steltenpower/KnowledgeDock).
 One allows the user sloppyness in manually drawing a graph, the other allows the user to type a text. In both cases the computer suggests more specific meaning. Maybe they can be synchronized for the current result or maybe even through time by scrolling the story.
 - of course all sorts of custom views can be added
-- Search engines love RDF(a) too.
+- Build it in SVG, possibly with RDFa for search engines.
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - To not copy nodes or edges, RDF* will be used
 
----
+## Reasoning behind the idea
 
 In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards, sometimes with specialized software.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams often on paper or whiteboards. This loses process and our digital assistents can't reason over them. Specialized mindmap software nowadays only is an (extra) manual step for nicer looking pictures, still pretty useless as data.
 
-In machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
+Similar to our associative brains, in machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 - A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
 - A **graph**: a collection of connected triples.
 - Triples pointing from one graph to another graph somewhere else, allow for **querying a combination of graphs**, for which answers can be immediately visualized.
