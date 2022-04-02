@@ -1,7 +1,11 @@
 # Train of Thought
 
-## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable graph with higher dimension)
-Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'found' web, in Linked Data format. SHOW THIS WITH A VARIATION ON 'THE MONA LISA GRAPH' TO HAVE 1 QUERY WORK ON COMBINATION OF GRAPHS
+## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
+Very quickly hand draw a graph combining new nodes and edges and those already available somewhere on the 'outer' web.<br>
+<table><tr><td>Conceptually</td><td>In Linked Data</td></tr><tr><td>
+   <img src="https://www.w3.org/TR/rdf11-primer/example-graph.jpg"></td><td>
+<img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
+The fun part of Linked Data is that you can query a combination of graphs
 
 ## A MENTAL MODEL FOR THE DATA MODEL
 Imagine a horizontal transparent layer to hold the mindgraph:
