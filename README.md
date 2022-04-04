@@ -7,7 +7,7 @@ Very quickly hand draw a query-able graph combining new nodes and edges and thos
 <img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
 The fun part of Linked Data is that you can query a combination of graphs, here the blue and the green, as if they were one graph on one system.
 
-## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THE WEB APP
+## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THIS ENVISIONED WEB APP
 Imagine a horizontal transparent layer to hold the mindgraph:
 - On top of it new nodes and edges are drawn
 - Pinned against the bottom of it are some outside nodes and edges.
