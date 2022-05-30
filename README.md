@@ -3,7 +3,7 @@
 ## Reasoning behind the idea
 
 In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. I have not yet seen ways where the end result is ready to allow our digital assistents to reason over them. Specialized mindmap software nowadays often is an (extra) manual step for nicer looking pictures, or uses a data format that lacks the standardized semantics to meaningfully connect in a machine-actionable way.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. Specialized mindmap software nowadays often is an (extra) manual step for nicer looking pictures, or uses a data format that lacks the standardized semantics to meaningfully connect datasets from different sources and have our digital assistens reason over combinations of them. The first advantage of allowing our digital assistants to help is lowering the chance that people think they mean the same thing, while in fact they mean something slightly or even completely DIFFERENT.
 
 Similar to our associative brains, in machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 - A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
