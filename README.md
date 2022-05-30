@@ -3,7 +3,7 @@
 ## Reasoning behind the idea
 
 In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. I have not yet seen ways where the process of making these visuals was also captured (though video capturing could be used on thop) and the end result certainly isn't ready to allow our digital assistents to reason over them. Specialized mindmap software nowadays only is an (extra) manual step for nicer looking pictures, still pretty useless as data.
+Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. I have not yet seen ways where the process of making these visuals was also captured (though video capturing could be used on top) and the end result certainly isn't ready to allow our digital assistents to reason over them. Specialized mindmap software nowadays only is an (extra) manual step for nicer looking pictures, still pretty useless as data.
 
 Similar to our associative brains, in machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 - A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
