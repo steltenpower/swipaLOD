@@ -27,24 +27,25 @@ Imagine a horizontal transparent layer to hold the mindgraph:
 - Pinned against the bottom of it are some outside nodes and edges.
 
 Outside nodes that are not part of the mindgraph layer hang by their edges downward into 3D space.
-How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap, nodes seem to slightly repel each other.
+How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap in the top-down 2D view on the system; nodes seem to slightly repel each other.
 
 It's as if the mindgraph is a glass lid on a box full of nodes and edges. IMAGE TO ADD
 
 ## Drawing process
 - Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
-- Elements not in the mindgraph yet can be tapped to pin them into it.
+- Elements not in the mindgraph yet, can be tapped to pin them into it.
 - Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/outside and in/below mindgraph)
 - Of course you can only pin what is visible, which usually is only a tiny tiny fraction of data available below the mindgraph.
 A possibly complex algorithm and a few user controls (zoom, depth, SPARQLfilter, [RelFinder](http://www.visualdataweb.org/relfinder.php), etc.) to steer it, decide what is visible and how big, detailed or custom, elements are depicted.
-- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention suddenly became a concept already strictly defined elsewhere**. A sort of opposite is also possible, if you connect with a "ignore suggestions" pseudo-edge, the multiple 'Did you Mean?'-edges will be deleted and the connected nodes will probably drop into the depths. (Maybe the tool should be named "BubbleUp" or "BubbleLOD")
-- Manual added relations get suggestions for relation type available in vocab search space. Pick one, or confirm the new one.
+- A search algorithm can hang 'Did you Mean?'-type edges from nodes in the mindgraph. If you connect those with a "replaces" pseudo-edge, they'll be combined into one node, meaning **your quick vague mention suddenly became a concept already strictly defined elsewhere**. A sort of opposite is also possible, if you connect with a "ignore suggestions" pseudo-edge, the multiple 'Did you Mean?'-edges will be deleted and the connected nodes will probably drop into the depths.
+- Manual added relations get suggestions for relation type available in the current vocabulary search space, which you created by (un)selecting vocabularies. Pick a selection for the relation type, or confirm a new one.
 
 ## What more, possibly
 - There's so much HTML out there to be used; look into the vocab mentioned in the "miljoenennota" video on PLDN.
-- Created data will be shareable to other Linked Data users and projects.
+- Created data will be shareable to other Linked Data users and projects, including from SoLiD pods.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 - The tool should ideally be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
+- Offered suggestions will not force you to interact right-there-and-then for several reasons: You should be able to keep the flow in your train of thought. Generating suggestions can take a while and go gradually. Some suggestions could automatically disappear again, because of changes elsewhere (e.g. if I note that someone sucks at sports, to suggest the Wimbledon winner by the same name is no longer logical).
 - Maybe it can be nicely combined with [Knowledge Dock](https://github.com/steltenpower/KnowledgeDock).
 One allows the user sloppyness in manually drawing a graph, the other allows the user to type a text. In both cases the computer suggests more specific meaning. Maybe they can be synchronized for the current result or maybe even through time by scrolling the story.
 - of course all sorts of custom views can be added
