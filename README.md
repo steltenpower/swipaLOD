@@ -19,7 +19,7 @@ You could for example ask (first in a technical language named SPARQL, later pos
 Train of Thought is about combining the usability of a whiteboard with the power of Linked Data.
 
 ## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
-Very quickly hand draw a query-able graph combining new nodes and edges and those already available somewhere outside on the web (while also recording the process including audio).<br>
+Very quickly hand draw a query-able graph combining new nodes and edges and those already available somewhere outside on the web, suggested in context (while also recording the process including audio).<br>
 
 ## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THIS ENVISIONED WEB APP
 Imagine a horizontal transparent layer to hold the mindgraph:
