@@ -20,6 +20,8 @@ Train of Thought is about combining the usability of a whiteboard with the power
 
 ## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
 Very quickly hand draw a query-able graph combining new nodes and edges and those already available somewhere outside on the web, suggested in context (while also recording the process including audio).<br>
+A possible application: brainstorming about possible new research projects to take on and getting suggestions from the many research (meta)data out there and things related to it. Also it is a way to capture new (meta)data as early as possible, which is rewarded as early as possible with the generated suggestions in this tool.
+For data-quality reasons you don't want people to postpone making the metadata or not being helped doing it.
 
 ## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THIS ENVISIONED WEB APP
 Imagine a horizontal transparent layer to hold the mindgraph:
