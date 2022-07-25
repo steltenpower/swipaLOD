@@ -167,7 +167,7 @@ I say current as more representations (e.g. N3, JSON-LD) are possible next to de
 OR does it need RDF*'s Lois Lane construct as mentioned in https://douroucouli.wordpress.com/2019/07/11/proposed-strategy-for-semantics-in-rdf-and-property-graphs/ ?
 - As syntax of SPARQL queries is very similar to one of the RDF notations, can this tool be used to create SPARQL queries?
 
-
+OpenAlex.org seems a nice ScienceKnowledgeGraph to use in this.
 
 
 ####Coding hints:
