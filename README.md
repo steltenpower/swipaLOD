@@ -185,3 +185,5 @@ OpenAlex.org seems a nice ScienceKnowledgeGraph to use in this.
 - http://steltenpower.com/pointers.html 
 - https://m-ld.org/news/#collaboratenable
 - https://steltenpower.github.io/flowchat/
+
+- http://hsc.fed.wiki/assets/home/index.html
