@@ -1,4 +1,4 @@
-# Train of Thought
+# Train of Thought (maybe mention it as "Data Collective Ideation" for FAIR research data?)
 
 ## Reasoning behind the idea
 
