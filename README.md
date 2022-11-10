@@ -1,4 +1,4 @@
-# Train of Thought, or Data Collective Ideation, or Ideation Graph, or ... ?
+# Train of Thought, or Data Collective Ideation, or Ideation Graph, or ...
 
 ## Reasoning behind the idea
 
