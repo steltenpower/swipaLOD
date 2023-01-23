@@ -43,7 +43,7 @@ A possibly complex algorithm and a few user controls (zoom, depth, SPARQLfilter,
 - Manual added relations get suggestions for relation type available in the current vocabulary search space, which you created by (un)selecting vocabularies. Pick a selection for the relation type, or confirm a new one.
 
 ## What more, possibly
-- There's so much HTML out there to be used; look into the vocab mentioned in the "miljoenennota" video on PLDN.
+- There's so much HTML out there to be used; look into the vocab mentioned in the ["miljoenennota" video on PLDN](https://www.pldn.nl/wiki/De_Miljoenennota_met_Linked_Data_%E2%80%93_10_maart_2022).
 - Created data will be shareable to other Linked Data users and projects, including from SoLiD pods.
 - Live sharing a.k.a. multi-user mode, might result in several cooperation styles: cleaning/specifying/growing/discussing
 - The tool should ideally be almost as fast to operate as your train of thought. Hence, the name. Because of that and needing to fit not only small graphs on screen, interaction should not everywhere need visual indicators taking up space all the time. Content is king, right?
