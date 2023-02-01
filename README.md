@@ -1,4 +1,6 @@
-# Train of Thought, or Data Collective Ideation, or Ideation Graph, or ...
+# Train of Thought, or Data Collective Ideation, or Ideation Graph, or RELATE
+
+![newest design, new name](RELATE.jpg)
 
 ## Reasoning behind the idea
 
