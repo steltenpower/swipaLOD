@@ -2,6 +2,35 @@
 
 ![newest design, new name](RELATE.jpg)
 
+~~~~~~~~~NOTE TO SELF TO UPDATE
+Maak video opname waarin je met stem&cursor browsertabs uitlegt:
+
+INSPIRATIE:
+- vrijheid fysiek whiteboard,
+    later uitwerken foto blijkt lastig,
+    men blijkt iets anders te bedoelen.
+    Vaak nodes&edges & text snippets.
+- mindmap software slows down your train of thought
+    and results in a bag of pixels,
+    not a queryable network of data
+- metadateren is als administratief huiswerk
+    dat je eeuwig uitstelt
+    en te laat/weinig voordeel uithaalt.
+    Maak het bizar snel&makkelijk
+    en laat het direct waarde opleveren.
+    Wat is eerder dan brainstormfase?
+- We often keep switching
+    between a search context and a creation context.
+    Can we combine them?
+- Lots of FAIR data things are
+    implemented with Linked data technology.
+    Linked data is very powerful,
+    if you're into long arcane syntaxes.
+
+So I came up with something else:
+
+show the GUI (without search-creation loop)
+~~~~~~~~~
 ## Reasoning behind the idea
 
 In our associative brains information is linked, forming a network.
