@@ -33,6 +33,8 @@ show the GUI (without search-creation loop)
 ~~~~~~~~~
 ## Reasoning behind the idea
 
+Small data vs big data.
+
 In our associative brains information is linked, forming a network.
 Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. Specialized mindmap software nowadays often is an (extra) manual step for nicer looking pictures, or uses a data format that lacks the standardized semantics to meaningfully connect datasets from different sources and have our digital assistants reason over combinations of them. The first advantage of allowing our digital assistants to help is lowering the chance that people think they mean the same thing, while in fact they mean something slightly or even completely DIFFERENT.
 
