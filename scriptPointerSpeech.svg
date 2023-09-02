@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE  svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="-100 -100 1200 600"
+     xmlns="http://www.w3.org/2000/svg" version="1.1" onload="init()">
+<style type="text/css">
+text{
+    text-anchor:middle;
+    dominant-baseline:middle;
+}
+.node{
+    font-weight:bold;
+}
+.edge{
+    text-decoration:italic;
+	stroke:lightgrey;
+	fill:lightgrey;
+}
+line{
+	stroke:red;
+}
+</style>
+<script type="text/javascript">
+    function canvasDown(evt) {
+     evt.preventDefault();
+        point.x = evt.clientX;
+        point.y = evt.clientY;
+        point = point.matrixTransform(svgElem.getScreenCTM().inverse());
+        nodeElem = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+        nodeElem.setAttributeNS("http://www.w3.org/1999/xlink","xlink:href","#node");
+        nodeElem.setAttribute('x', Math.round(point.x));
+        nodeElem.setAttribute('y', Math.round(point.y));
+		nodeElem.setAttribute('onmousedown',"nodeDown(evt)");
+		nodeElem.setAttribute('onmouseup',"nodeUp(evt)");
+		onmouseup="nodeUp(evt)"
+        nodes.appendChild(nodeElem);    
+		startNode=null;
+	 evt.stopPropagation();
+    }
+    function nodeDown(evt){
+	 evt.preventDefault();
+		startNode=evt.currentTarget;
+		var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
+		audio.play();
+	 evt.stopPropagation();
+    }
+    function nodeUp(evt){
+	 evt.preventDefault();
+		A=startNode;
+		B=evt.target;
+		if (A!==null){
+			if (A!==B){
+				Xa=parseInt(A.getAttribute('x'));
+				Ya=parseInt(A.getAttribute('y'));
+				Xb=parseInt(B.getAttribute('x'));
+				Yb=parseInt(B.getAttribute('y'));
+				Xr=(Xa+Xb)/2;
+				Yr=(Ya+Yb)/2;
+				lineElem = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+				lineElem.setAttribute('x1',Xr-0.8*(Xr-Xa));
+				lineElem.setAttribute('y1',Yr-0.8*(Yr-Ya));
+				lineElem.setAttribute('x2',Xr-0.8*(Xr-Xb));
+				lineElem.setAttribute('y2',Yr-0.8*(Yr-Yb));
+				lineElem.setAttribute('marker-end',"url(#arrow)");
+				nameElem = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+				nameElem.setAttributeNS("http://www.w3.org/1999/xlink","xlink:href","#edge");
+				nameElem.setAttribute('x',Xr);
+				nameElem.setAttribute('y',Yr);
+				edges.appendChild(lineElem);
+				setTimeout(() => {
+					edges.appendChild(nameElem);      
+				}, "1000");
+				
+			}
+		}
+		startNode=null;
+	 evt.stopPropagation();
+    }
+    function init(evt){
+        svgElem=document.getElementsByTagName("svg")[0];
+        canvas=document.getElementById("canvas");
+        nodes=document.getElementById("nodes");
+        edges=document.getElementById("edges");
+		point = svgElem.createSVGPoint();
+    }
+</script>
+<defs>
+	<marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="10"
+      refY="5"
+      markerWidth="6"
+      markerHeight="6"
+      orient="auto-start-reverse"
+	  stroke="red" fill="red">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    <text id="edge" class="edge">&#x2022; edge</text>
+    <text id="node" class="node">node</text>
+</defs>
+<g id="canvas" onmousedown="canvasDown(evt)">
+  <rect width="1200" height="600" fill="ivory" stroke="blue"/>
+  <g id="edges"></g>
+  <g id="nodes"></g>
+</g>
+</svg>
