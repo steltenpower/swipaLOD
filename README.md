@@ -1,3 +1,5 @@
+pssst: slowly working towards sloppy mockup in SVGinIframe.html
+
 # Train of Thought, or Data Collective Ideation, or Ideation Graph, or RELATE
 
 ![newest design, new name](RELATE.jpg)
