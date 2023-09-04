@@ -104,4 +104,23 @@ line{
   <g id="edges"></g>
   <g id="nodes"></g>
 </g>
+<!-- 
+... + A.. = A.. =now= C↓ C↑ 		  soon=	C↓ C↑
+A.B + .2. = A2B =now= A.node↓+B.node↑ soon= A↓ A→ →B B↑
+A.. + .2B = A2B =now= A.. 			  soon= A↓ A→ C↮ B↑ 
+..B + A2. = A2B =now= A.. 			  soon= C↓ A→ B→ B↑ 
+... + A2B = A2B =now= A.. 			  soon= C↓ A→ C↮ B↑ 
+→x=in x→=out x↑=up x↓=down x↮=stoppedMoving x↔=move
+
+- click on node/edge list of texts selects that; A↓ A↑
+- voice audio ~0.5 sec na mouse event?
+- voicereq (charByChar) ~0.3 sec after that?
+- found in DBs ~2s,4s,etc after that (schedule DECIDING to add or not)
+- Decide on audio and text to script
+
+? animate to show status might need more events, mousemove?
+? make a RDF data format?
+
+
+ -->
 </svg>
