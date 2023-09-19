@@ -1,4 +1,4 @@
-# Train of Thought, or Data Collective Ideation, or Ideation Graph, or RELATE
+# swipaLOD
 
 pssst: slowly working towards sloppy mockup in SVGinIframe.html
 
