@@ -1,6 +1,6 @@
 # swipaLOD
 
-pssst: slowly working towards sloppy mockup in SVGinIframe.html
+pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured in https://github.com/steltenpower/swipaLOD/raw/main/test_video_capture-20230919_120912-Meeting%20Recording.mp4
 
 ![newest design, new name](RELATE.jpg)
 
