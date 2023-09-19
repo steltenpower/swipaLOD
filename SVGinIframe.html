@@ -2,47 +2,54 @@
 <head>
 <script>
 function intro(){
-alert("- mics\n- touchscreen on back\n- colleagues on feet or elsewhere\n==> TRAIN OF THOUGHT");
+alert("\n- microphones\n- touchscreen on back\n- colleagues on feet or elsewhere\n\nintegrating SEARCH & CREATE\n(replay the interaction process too)\n\nBEWARE: humans cause semantic drift, which is annoying and good.");
 }
 </script></head>
 <body onload="intro()">
 <table border=1 width="100%" height="100%">
 <tr>
-<td style="font-weight:bold;text-decoration:underline;">Train of Thought</td>
-<td><input type="checkbox">capture process (to write text around triples)</td>
-<td><input type="checkbox">multi-user</td></tr>
+<td></td>
+<td><input type="checkbox">multi-user
+&nbsp;&nbsp;&nbsp;
+<input type="checkbox">multi-touch: chain &amp; multi-property
+&nbsp;&nbsp;&nbsp;
+<input type="checkbox">serendipity (show extra context)</td>
+<td>the 4 sidepanels<br>can auto-hide</td></tr>
 <tr><td>
-<i>integrating<br>search&amp;create</i><br><br><br>
+DATABASES:<br><br>
 <input type="checkbox" checked>wikidata<br>
 <input type="checkbox">DBpedia<br>
 <input type="checkbox" checked>OpenAlex<br>
-<input type="checkbox" checked>Ent.Knowl.Gr.<br>
-<input type="checkbox" checked>SoLiD_pod<br>
+<input type="checkbox" checked>OpenAIRE graph<br>
+<input type="checkbox" checked>EnterpriseKG<br>
+<input type="checkbox" checked>SoLiDpod<br>
 <input type="checkbox" checked>[THIScanvas]<br>
-<input type="checkbox" checked>[NEW]<br>
-<br>
-<b>&nbsp;&nbsp;&updownarrow;RELATING&updownarrow;</b><br><br>
+<input type="checkbox" checked>[DEFINEnew]<br>
+<br><br>
+VOCABULARIES:<br><br>
 <input type="checkbox" checked>FOAF<br>
 <input type="checkbox" checked>DublinCore<br>
 <input type="checkbox">htmlVoc<br>
 <input type="checkbox" checked>[THIScanvas]<br>
-<input type="checkbox" checked>[NEW]<br>
+<input type="checkbox" checked>[DEFINEnew]<br>
+<br>
+<input type="checkbox">A "finds routing to" B
 </td>
 <td><iframe src="scriptPointerSpeech.svg" width="1200" height="600"></iframe></td>
-<td>VIEW:<br><input type="radio" checked>graphing<br>
-<input type="radio">writing<br>
+<td>VIEW:<br><br><input type="radio" checked><b>SwipaLOD</b><br>
+<input type="radio">storyLOD<br>
+<input type="radio">Zett (muzeNL)<br>
 <br>
 <input type="radio">customViz<br>
 <br>
+<input type="radio">RDF-XML<br>
 <input type="radio">N3<br>
 <input type="radio">json-LD<br>
-<br>
-<input type="radio">track(video)<br>
 </td></tr>
-<tr><td><input type="checkbox">multi-touch<br>finds routes</td>
+<tr><td></td>
 <td><b>/all\</b>&nbsp;&nbsp;&nbsp;/new_SPARQL\&nbsp;&nbsp;&nbsp;/my_filter1\&nbsp;&nbsp;&nbsp;/my_filter2\<br>
 <textarea cols="100" rows="3"></textarea>
 </td>
-<td><input type="checkbox">serendipity<br>(some context)</td></tr></table>
+<td></td></tr></table>
 </body>
 </html>

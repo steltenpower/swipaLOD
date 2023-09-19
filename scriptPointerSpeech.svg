@@ -182,13 +182,16 @@ pickF_edge 2.edgeDown                                     edgeUp */
 		}
 	evt.stopPropagation();}
 	
-	function canvasUp(evt){evt.preventDefault(); // manually avoid firing this
-		if (phase===to) TP[to].remove(); // TODO: remove() is pseudocode. Better create a B anyway
+	function canvasUp(evt){evt.preventDefault();
+		if (phase===to){
+			TP[b]=createNode(evt);
+			nodes.appendChild(TP[b]);
+		}
 		listen(no);
 	evt.stopPropagation();}
 	
 	function relClick(evt){evt.preventDefault(); // ToDo: make it work; Dn&Up? hotTe=edge;
-        console.log("relClicked");
+        console.log("relClick-ed");
         pickFound(evt.target,"edges");
     evt.stopPropagation();}
 // ########  INIT  #######################################
@@ -229,4 +232,12 @@ pickF_edge 2.edgeDown                                     edgeUp */
 - Decide on audio and text to cue, based on counting draw calls
 - call the events slightly Y-shifted (otherwise they're firing hidden behind your fingers
 ? make a RDF data format?
-Pre-print the result? --></svg>
+Pre-print the result?
+
+Als we loze CanvasUp nou eens vertalen in afronden TO en toevoegen B zonder listening?
+
+Voorbij deze mockup:
+Hoe doen we de shuffle van nodes? Misschien van modus switchen door in een hoekje van het scherm te clicken?
+Hoe wissen we nodes? Hoe wissen edges?
+Hoe kopiëren we edgeType? Hoe reconnecten we edges? Slepen vanaf begin/midden/eind edge? Hoe vertakken we edges?
+ --></svg>
