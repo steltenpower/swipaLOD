@@ -29,7 +29,7 @@ line{    stroke:red;}
 	}
 	function stalled(){ return (moveXsample===moveXrt)&&(moveYsample===moveYrt); }
 	const no=0, a=1, to=2, b=3;
-	var phase=no, hotTe=null, lastEvt=null;
+	var phase=no, hotTe=null, typingTe=null, lastEvt=null;
 	const fileNames=["","StartScratch.mp3","pewpew.mp3","LetGo.mp3"];
 	const audio=[null,new Audio(fileNames[a]),new Audio(fileNames[to]),new Audio(fileNames[b])];
 	const heard=["","scratch","pew","ploop"];
@@ -41,9 +41,13 @@ line{    stroke:red;}
 		TP[to]=null;
 		TP[b]=null;
 	}
-    function KBoverride(){
-		if (hotTe!==null){ hotTe.textContent=";alsfngv"; }
-		hotTe=null;
+    function KBoverride(evt){
+		if (hotTe!==null){
+			typingTe=hotTe;
+			typingTe.textContent="";
+			hotTe=null;
+		}
+		typingTe.textContent=typingTe.textContent+evt.key;
     }
     function pickFound(Te,log){ // ToDo: on tspan? ToDo: shuffle nodes around?
         console.log("picked one from list of found "+log); // ToDo:realiseer
@@ -76,7 +80,8 @@ line{    stroke:red;}
         Le.setAttribute("marker-end","url(#arrow)");
         Te=createE("text");
         Te.setAttribute("class","edge");
-        Te.setAttribute("onclick","relClick(evt)"); // TODO: try Down&Up combo instead
+        Te.setAttribute("onmouseup","edgeUp(evt)");
+        Te.setAttribute("onmousedown","edgeDown(evt)");
         Te.textContent="...";
         Ge=createE("g");
         Ge.appendChild(Le);
@@ -123,6 +128,9 @@ line{    stroke:red;}
 	
     function nodeDown(evt){evt.preventDefault();
         TP[a]=evt.target;
+    evt.stopPropagation();}
+	
+    function edgeDown(evt){evt.preventDefault();
     evt.stopPropagation();}
 	
     function nodeUp(evt){evt.preventDefault();
@@ -190,8 +198,8 @@ pickF_edge 2.edgeDown                                     edgeUp */
 		listen(no);
 	evt.stopPropagation();}
 	
-	function relClick(evt){evt.preventDefault(); // ToDo: make it work; Dn&Up? hotTe=edge;
-        console.log("relClick-ed");
+	function edgeUp(evt){evt.preventDefault();
+        hotTe=evt.target;
         pickFound(evt.target,"edges");
     evt.stopPropagation();}
 // ########  INIT  #######################################
@@ -202,7 +210,7 @@ pickF_edge 2.edgeDown                                     edgeUp */
         nodes =EbyId("nodes");
         edges =EbyId("edges");
         point = svg.createSVGPoint();
-		window.addEventListener("keypress", function (evt){ KBoverride(); })
+		window.addEventListener("keypress", function (evt){ KBoverride(evt); })
 		resetTP();
 		resetSampling();
 		setInterval(sampleMouseOver,800); // TODO: stalled for anything between 1 and 2 times 800
@@ -233,8 +241,6 @@ pickF_edge 2.edgeDown                                     edgeUp */
 - call the events slightly Y-shifted (otherwise they're firing hidden behind your fingers
 ? make a RDF data format?
 Pre-print the result?
-
-Als we loze CanvasUp nou eens vertalen in afronden TO en toevoegen B zonder listening?
 
 Voorbij deze mockup:
 Hoe doen we de shuffle van nodes? Misschien van modus switchen door in een hoekje van het scherm te clicken?
