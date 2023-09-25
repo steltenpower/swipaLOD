@@ -3,12 +3,12 @@ var Xsample, Ysample, Xrt, Yrt;
 const svgNS="http://www.w3.org/2000/svg";
 function createElm(tagName){ return document.createElementNS(svgNS,tagName); }
 const no=0, a=1, to=2, b=3;
-var TP=[], phase=no, hotTe=null, typingTe=null; // TP=triple,Te=TextElement
+var TP=[], phase=no, hotTe=null; // ToDo: hotTe doesn't know current triple and place in it. change that to allow TABbing through it
+var typingTe=null; // TP=triple,Te=TextElement
 const mp3=["","StartScratch.mp3","pewpew.mp3","LetGo.mp3"];
 const fVoiceIn=[null,new Audio(mp3[a]),new Audio(mp3[to]),new Audio(mp3[b])];
 const fHeard=["","scratch","pew","ploop"];
 var count=0;
-var lastEvt=null;
 
 function createNode(evt){
     var N;
@@ -61,12 +61,6 @@ function updateEdge(evt){
     Te.setAttribute("x",Math.round((parseInt(x1)+x2)/2));
     Te.setAttribute("y",Math.round((parseInt(y1)+y2)/2));
 }
-function resetSampling(){
-    Xsample=-1000;
-    Ysample=-2000;
-    Xrt=-3000;
-    Yrt=-4000;
-}
 function resetTP(){
     TP[no]=null;
     TP[a]=null;
@@ -87,20 +81,19 @@ function pickFound(Te,log){ // ToDo: on tspan?
 }
 // === UPDATE ELEMENTS ======================
 function setContent(elm,str) {elm.textContent=str;} // TODO: reset found list
-function textUpdateLater(i,str,delay){
+function textUpdateLater(i,str){
     var Te;
     if(i!==no){
         Te=TP[i];
         if (str==="") {str=(count++)+fHeard[i];}
-        if (delay!==0) {delay=700;}
         if (Te.nodeName.toLowerCase()!=="text") {Te=Te.getElementsByTagName("text")[0];}
-        setTimeout(setContent,delay,Te,str); // TODO: have more realistic faked hearing
+        setTimeout(setContent,700,Te,str); // TODO: have more realistic faked hearing
         hotTe=Te; // TODO: start searching and add below, make it many tspan's in 
     }
 }
-function listen(next,fake){ // add parameter to shorten listening to 0?
+function listen(next){
     if (phase===no) {resetTP();}
-    else {textUpdateLater(phase,"",700);}
+    else {textUpdateLater(phase,"");}
     phase=next;
     if (phase!==no) {fVoiceIn[phase].play();}  // TODO: have more realistic faked audio
 }
@@ -123,10 +116,9 @@ function _canvasUp(evt){
     if (phase===to){
         TP[b]=createNode(evt);
         nodes.appendChild(TP[b]);
-        textUpdateLater(b,"_ _",700);
+		listen(b);
+		setTimeout(listen,1000,b);
     }
-    listen(b);
-    listen(no);
 }
                                                                                 function canvasUp(evt) {evt.preventDefault();
                                                                                     _canvasUp(evt);
@@ -159,14 +151,12 @@ function _nodeUp(evt){
                                                                                     _nodeUp(evt);
                                                                                 evt.stopPropagation();}
 function _nodeOut(evt){
-    if (evt.buttons===1){
-        if(evt.target===TP[a]){
-            listen(to);
-            TP[to]=createEdge(evt);
-            edges.append(TP[to]);
-        }
-        if(evt.target===TP[b]) {listen(no);}
+    if ((evt.buttons===1)&&(evt.target===TP[a])){
+		listen(to);
+		TP[to]=createEdge(evt);
+		edges.append(TP[to]);
     }
+    if(evt.target===TP[b]) {listen(no);} // ToDo: this should also be called after a while of silence
 }
                                                                                 function nodeOut(evt) {evt.preventDefault();
                                                                                     _nodeOut(evt);
@@ -186,9 +176,6 @@ function _nodeIn(evt){
 function _canvasMove(evt){
     if (phase===to){
         updateEdge(evt);
-        Xrt=evt.clientX;
-        Yrt=evt.clientY;
-        lastEvt=evt;
     }
 }
                                                                                 function canvasMove(evt) {evt.preventDefault();
@@ -203,17 +190,6 @@ function _edgeUp(evt){
                                                                                 evt.stopPropagation();}
 // ########  INIT  #######################################
 function EbyId(id){ return document.getElementById(id); }
-function detectMouseStall(){
-    if ((phase===to)&&((Xsample===Xrt)&&(Ysample===Yrt))){
-        TP[b]=createNode(lastEvt);
-        nodes.appendChild(TP[b]);
-        listen(b);
-        resetSampling();
-    }else{
-        Xsample=Xrt;
-        Ysample=Yrt;
-    }
-}
 function init(evt){
     svg   =EbyId("svg");
     canvas=EbyId("canvas");
@@ -222,6 +198,6 @@ function init(evt){
     point = svg.createSVGPoint();
     window.addEventListener("keypress", KBoverride);
     resetTP();
-    resetSampling();
-    setInterval(detectMouseStall,800); // ToDo: stalled for anything between 1 and 2 times 800, make smoother
+	
+	// ToDo: use (shift)TAB to loop through latest Triple elements
 }
