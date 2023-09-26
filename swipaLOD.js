@@ -81,19 +81,17 @@ function pickFound(Te,log){ // ToDo: on tspan?
 }
 // === UPDATE ELEMENTS ======================
 function setContent(elm,str) {elm.textContent=str;} // TODO: reset found list
-function textUpdateLater(i,str){
+function textUpdateLater(i){
     var Te;
     if(i!==no){
         Te=TP[i];
-        if (str==="") {str=(count++)+fHeard[i];}
         if (Te.nodeName.toLowerCase()!=="text") {Te=Te.getElementsByTagName("text")[0];}
-        setTimeout(setContent,700,Te,str); // TODO: have more realistic faked hearing
+        setTimeout(setContent,1200,Te,(count++)+fHeard[i]); // TODO: have more realistic faked hearing
         hotTe=Te; // TODO: start searching and add below, make it many tspan's in 
     }
 }
 function listen(next){
-    if (phase===no) {resetTP();}
-    else {textUpdateLater(phase,"");}
+    if (phase!==no) textUpdateLater(phase);
     phase=next;
     if (phase!==no) {fVoiceIn[phase].play();}  // TODO: have more realistic faked audio
 }
@@ -117,7 +115,7 @@ function _canvasUp(evt){
         TP[b]=createNode(evt);
         nodes.appendChild(TP[b]);
 		listen(b);
-		setTimeout(listen,1000,b);
+		setTimeout(listen,1000,no);
     }
 }
                                                                                 function canvasUp(evt) {evt.preventDefault();
