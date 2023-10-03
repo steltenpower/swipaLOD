@@ -225,3 +225,5 @@ OpenAlex.org seems a nice ScienceKnowledgeGraph to use in this.
 
 - http://hsc.fed.wiki/assets/home/index.html
 - https://www.w3.org/community/htmlvoc/
+
+- On concurring the general graph hairballs
