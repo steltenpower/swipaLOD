@@ -1,5 +1,38 @@
 # swipaLOD
 
+Many people use whiteboards to in front of, or with colleagues, draw nodes&arrows both with optional short texts or just one word. Often afterwards a photo is taken of this draft, to later spend quite some time manually turning these pixels into a piece of paper simulated on a computer screen. Usually a Microsoft Word document with an image made with Microsoft Visio or some mindmap tool. This is then often mailed out for the next meeting where many not seldomly realize that they actually misunderstood each other in the previous meeting. And if someone wants a different view on the same data, usually more manual work with the accompanied risk of errors is added
+
+I SUGGEST:
+- A REDESIGN FOR THE ABOVE
+The whiteboard will be turned horizontal and made a touchscreen for people to stand around and talk and gesture to each other. Plus when the screen is touched it listens to what is said, and when movement of the touch starts or stops the audio will be divided in text before/along/after the arrow defined during moving. For every text the system gives a list of "Did you mean ... ?" options from previously selected data sources and controlled vocabulaires, but also a 'define new here' option. The resulting graph is not only pixels, but Linked Data itself (half) 'under the hood'
+Extra's are multi-user, multi-device, serendipity AI-assistent, SPARQL-filtering
+
+BECAUSE
+- There's loads of double work, delay and room for misunderstanding and errors in the above, plus the data is in a shape not optimal for algorithms to combine and help the user
+- Much of the interaction with our data and devices is still based on habits built while using technology from an earlier generation, which can't always be optimal
+- I think you can get a sense of the power of Linked Data, actually combine data sources in that way, without scaring the average person away with long URLs or computer coding. But of course the dogma of the (paper) document is strong, and 'publish or perish' static PDFs is not limited to scholarly publication
+- Lots of AI can be orders of magnitude more energy efficient, plus more accurate, when it includes having a knowledge graph to reason over
+- There's more and more FAIR research (meta)data (mostly implemented with Linked Data techniques) available;
+- SoLiD (Social Linked Data) personal data pods against many instances of the same data and data hoarding business models (e.g. Facebook) also are growing, for example in microcredentials, private preferences and making sure government organisations have just enough and up-to-date data.
+- Traditional relational databases, spreadsheets and enriched (web)documents can be made available as Linked Data too, through translation layers. Several language techniques including LLMs could assist in the enriching where necessary.
+
+PLUS TEST WHAT (INGREDIENTS) PEOPLE LIKE ABOUT IT AFTER A WHILE OR WHAT MAYBE INSPIRES DIFFERENT IDEAS:
+
+
+WHAT IS DIFFERENT FROM WHAT PEOPLE MIGHT BE USED TO:
+- It actually invites other views and visualisations, is aimed at being part of an ecosystem by using open fileformats, maybe APIs. It will not even try to be a general Linked Data tool for all situations, by design.
+- Usually the involved data will not all fit on the screen. Though this is quite common for some relatively modern tools, to some it seems to be a strange idea, though don't your PDFs have way too many pages to be simultaneously legibly be rendered on your screen?
+- Search results won't always instantly pop up as datasets can be enormous. (un)availability of search results shouldn't decide the workflow of the user. Asynchronous is key.
+- Uncommon user interaction will take some time to get used to
+THE ABOVE ALSO HINTS ON CHALLENGES TO LOOK INTO, DO RESEARCH ON
+
+POSSIBLE APPLICATIONS:
+- research groups brainstorming what to do next in a few months when multiple projects finish
+- Learning environment in which to match several systems of educational resources and requirements
+- ...
+
+
+# stuff to mostly remove
 next to SPARQLendpoints and SoLiD pods, also FAIR data points?
 pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4
 
