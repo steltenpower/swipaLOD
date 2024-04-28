@@ -13,7 +13,7 @@ BECAUSE
 - I think you can get a sense of the power of Linked Data, actually combine data sources in that way, without scaring the average person away with long URLs or computer coding. But of course the dogma of the (paper) document is strong, and 'publish or perish' static PDFs is not limited to scholarly publication
 - Lots of AI can be orders of magnitude more energy efficient, plus more accurate, when it includes having a knowledge graph to reason over
 - There's more and more FAIR research (meta)data (mostly implemented with Linked Data techniques) available;
-- SoLiD (Social Linked Data) personal data pods against many instances of the same data and data hoarding business models (e.g. Facebook) also are growing, for example in microcredentials, private preferences and making sure government organisations have just enough and up-to-date data.
+- SoLiD (Social Linked Data) personal data pods against too many (possibly outdated) copies of the same data and data hoarding business models (e.g. Facebook) also are growing, for example in microcredentials, private preferences and making sure government organisations have just enough and up-to-date data.
 - Traditional relational databases, spreadsheets and enriched (web)documents can be made available as Linked Data too, through translation layers. Several language techniques including LLMs could assist in the enriching where necessary.
 
 PLUS TEST WHAT (INGREDIENTS) PEOPLE LIKE ABOUT IT AFTER A WHILE OR WHAT MAYBE INSPIRES DIFFERENT IDEAS:
