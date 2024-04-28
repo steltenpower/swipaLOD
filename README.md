@@ -1,6 +1,6 @@
 # swipaLOD
 
-Many people use whiteboards to in front of, or with colleagues, draw nodes&arrows both with optional short texts or just one word. Often afterwards a photo is taken of this draft, to later spend quite some time manually turning these pixels into a piece of paper simulated on a computer screen. Usually a Microsoft Word document with an image made with Microsoft Visio or some mindmap tool. This is then often mailed out for the next meeting where many not seldomly realize that they actually misunderstood each other in the previous meeting. And all this time there's no (meta)data available useful for the organisation to find the work, let alone easily use or reason over. And if someone wants a different view on the same data, usually more manual work with the accompanied risk of errors is added
+Currently, many people use whiteboards to in front of, or with colleagues, draw nodes&arrows both with optional short texts or just one word. Often afterwards a photo is taken of this draft, to later spend quite some time manually turning these pixels into a piece of paper simulated on a computer screen. Usually a Microsoft Word document with an image made with Microsoft Visio or some mindmap tool. This is then often mailed out for the next meeting where many not seldomly realize that they actually misunderstood each other in the previous meeting. And all this time there's no (meta)data available useful for the organisation to find the work, let alone easily use or reason over. And if someone wants a different view on the same data, usually more manual work with the accompanied risk of errors is added
 
 I SUGGEST:
 - A REDESIGN FOR THE ABOVE
@@ -8,7 +8,7 @@ The whiteboard will be turned horizontal and made a touchscreen for people to st
 Extra's are multi-user, multi-device, SPARQL-filtering, routefinding and serendipity AI-assistent
 
 BECAUSE
-- There's loads of double work, delay and room for misunderstanding and errors in the above, plus the data is in a shape not optimal for algorithms to combine and help the user
+- There's loads of double work, delay and room for misunderstanding and errors in the current way, plus the data is in a shape not optimal for algorithms to combine and help the user
 - Much of the interaction with our data and devices is still based on habits built while using technology from an earlier generation, which can't always be optimal
 - I think you can get a sense of the power of Linked Data, actually combine data sources in that way, without scaring the average person away with long URLs or computer coding. But of course the dogma of the (paper) document is strong, and 'publish or perish' static PDFs is not limited to scholarly publication
 - Lots of AI can be orders of magnitude more energy efficient, plus more accurate, when it includes having a knowledge graph to reason over
