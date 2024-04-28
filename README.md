@@ -32,7 +32,7 @@ POSSIBLE APPLICATIONS:
 - ...
 
 
-# stuff to mostly remove
+# some useful needles in a haystack
 next to SPARQLendpoints and SoLiD pods, also FAIR data points?
 pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4
 
