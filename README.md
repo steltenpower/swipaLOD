@@ -35,7 +35,7 @@ DIFFERENT APPLICATIONS OF JUST THE SWIPE&TALK INTERACTION:
 - Define decision trees
 - Other graph-shaped subjects.
 
-* slowly working towards sloppy mockup in SVGinIframe.html, clumsy video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4 *
+_ slowly working towards sloppy mockup in SVGinIframe.html, clumsy video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4 _ 
 
 ![newest design, new name](RELATE.jpg)
 
