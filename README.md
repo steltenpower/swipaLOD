@@ -5,7 +5,7 @@ Currently, many people use whiteboards to in front of, or with colleagues, draw 
 I SUGGEST:
 - A REDESIGN FOR THE ABOVE
 The whiteboard will be turned horizontal and made a touchscreen for people to stand around and talk and gesture to each other. Plus when the screen is touched it listens to what is said, and when movement of the touch starts or stops, the audio will be divided in text before/along/after the arrow defined during moving. For every text the system gives a list of "Did you mean ... ?" options from previously selected (public and private) data sources and controlled vocabulaires, but also a 'define new here' option. The resulting graph is not only pixels, but Linked Data itself (half) 'under the hood'.
-Extra's are multi-user, multi-device, SPARQL-filtering, routefinding and serendipity AI-assistent
+Extra's are multi-user, multi-device, SPARQL-filtering, routefinding, serendipity AI-assistent and capturing the process, the thoughts that got you to the end result.
 
 BECAUSE
 - There's loads of double work, delay and room for misunderstanding and errors in the current way, plus the data is in a shape not optimal for algorithms to combine and help the user
