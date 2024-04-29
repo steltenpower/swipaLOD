@@ -23,16 +23,19 @@ WHAT IS DIFFERENT FROM WHAT PEOPLE MIGHT BE USED TO:
 - It actually invites other views and visualisations (e.g. storyLOD and Zett@Muze), is aimed at being part of an ecosystem by using open fileformats, maybe APIs. It will not even try to be a general Linked Data tool for all situations, by design.
 - Usually the involved data will not all simultaneously fit on the screen in a readable way. Though this is quite common for some relatively modern tools, to some it seems to be a strange idea, though don't your PDFs have way too many pages to be simultaneously legibly be rendered on your screen?
 - Search results won't always instantly pop up as datasets can be enormous. (un)availability of search results shouldn't decide the workflow of the user. Asynchronous is key.
-- Uncommon user interaction will take some time to get used to
+- Uncommon user interaction will take some time to get used to.
 THE ABOVE ALSO HINTS ON CHALLENGES TO LOOK INTO, DO RESEARCH ON
 
 POSSIBLE APPLICATIONS:
 - research groups brainstorming what to do next in a few months when multiple projects finish
-- Learning environment in which to match several systems of educational resources and requirements
-- ...
+- Learning Management System in which to match several systems of educational resources and requirements
 
+DIFFERENT APPLICATIONS OF JUST THE SWIPE&TALK INTERACTION:
+- Define Process-Channel-Process: for parallel programming with Occam and Go(lang) and very similar draw Component-Connection-Component for electronics
+- Define decision trees
+- Other graph-shaped subjects.
 
-# some useful needles in a haystack
+# below only some useful needles in a big haystack
 next to SPARQLendpoints and SoLiD pods, also FAIR data points?
 pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4
 
