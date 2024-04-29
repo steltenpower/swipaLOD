@@ -9,6 +9,7 @@ Extra's are multi-user, multi-device, SPARQL-filtering, routefinding, serendipit
 
 BECAUSE
 - There's loads of double work, delay and room for misunderstanding and errors in the current way, plus the data is in a shape not optimal for algorithms to combine and help the user
+- It's a strong combination of search&create in one. But not in a black-box way fundamentally based on using statistics to guess the next word, where synonyms are one of the reasons for chatGPT and the like to produce unlogical texts.
 - Much of the interaction with our data and devices is still based on habits built while using technology from an earlier generation, which can't always be optimal
 - I think you can get a sense of the power of Linked Data, actually combine data sources in that way, without scaring the average person away with long URLs or computer coding. But of course the dogma of the (paper) document is strong, and 'publish or perish' static PDFs is not limited to scholarly publication
 - Lots of AI can be orders of magnitude more energy efficient, plus more accurate, when it includes having a knowledge graph to reason over
