@@ -54,8 +54,7 @@ You could for example ask (first in a technical language named SPARQL, later pos
 # below only some useful needles in a big haystack
 
 ## Drawing process
-- Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
-- Elements not in the mindgraph yet, can be tapped to pin them into it.
+- Elements shown from other databases, but not yet refered to from within your namespace, can be tapped to pin them into it.
 - Tap again for unpin (this can also mean you unpin what you drew, adding up to 4 combinations: drawn/outside and in/below mindgraph)
 - Of course you can only pin what is visible, which usually is only a tiny tiny fraction of data available below the mindgraph.
 A possibly complex algorithm and a few user controls (zoom, depth, SPARQLfilter, [RelFinder](http://www.visualdataweb.org/relfinder.php), etc.) to steer it, decide what is visible and how big, detailed or custom, elements are depicted.
@@ -75,7 +74,7 @@ One allows the user sloppyness in manually drawing a graph, the other allows the
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - To not copy nodes or edges, RDF* will be used
 
-## FROM HERE ON: OLD, SOMETIMES OUTDATED, SKETCHES AND STUFF
+# FROM HERE ON: EVEN OLDER, LIKELY OUTDATED, EARLY SKETCHES AND STUFF
 
 <img src="https://repository-images.githubusercontent.com/103260748/0559bb80-72a1-11eb-9df9-7ef50042c55f">
 
