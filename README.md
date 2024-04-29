@@ -35,9 +35,7 @@ DIFFERENT APPLICATIONS OF JUST THE SWIPE&TALK INTERACTION:
 - Define decision trees
 - Other graph-shaped subjects.
 
-# below only some useful needles in a big haystack
-next to SPARQLendpoints and SoLiD pods, also FAIR data points?
-pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4
+slowly working towards sloppy mockup in SVGinIframe.html, clumsy video captured in https://github.com/steltenpower/swipaLOD/raw/main/clumsy_video_swipaLOD.mp4
 
 ![newest design, new name](RELATE.jpg)
 
@@ -52,6 +50,8 @@ Similar to our associative brains, in machines through standardized notation and
 <img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
 The fun part of Linked Data is that you can query a combination of graphs, here the blue and the green, as if they were one graph on one system.
 You could for example ask (first in a technical language named SPARQL, later possibly taking in natural language processing options that do already exist): "Which persons are interested in stuff by Leonardo da Vinci?".
+
+# below only some useful needles in a big haystack
 
 ## Drawing process
 - Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
