@@ -53,16 +53,6 @@ Similar to our associative brains, in machines through standardized notation and
 The fun part of Linked Data is that you can query a combination of graphs, here the blue and the green, as if they were one graph on one system.
 You could for example ask (first in a technical language named SPARQL, later possibly taking in natural language processing options that do already exist): "Which persons are interested in stuff by Leonardo da Vinci?".
 
-## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THIS ENVISIONED WEB APP
-Imagine a horizontal transparent layer to hold the mindgraph:
-- On top of it new nodes and edges are drawn
-- Pinned against the bottom of it are some outside nodes and edges.
-
-Outside nodes that are not part of the mindgraph layer hang by their edges downward into 3D space.
-How deep is linear to the number of hops from the mindgraph layer, but not only straight down as to prevent overlap in the top-down 2D view on the system; nodes seem to slightly repel each other.
-
-It's as if the mindgraph is a glass lid on a box full of nodes and edges. IMAGE TO ADD
-
 ## Drawing process
 - Creating new nodes and edges with the flick of a finger: an arrow with 3 locations for **optional** text (spoken or typed): before+along+after (where the first and/or last could already exist there)
 - Elements not in the mindgraph yet, can be tapped to pin them into it.
