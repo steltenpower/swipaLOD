@@ -1,6 +1,6 @@
 # swipaLOD
 
-Currently, many people use whiteboards to in front of, or with colleagues, draw nodes&arrows both with optional short texts or just one word. Often afterwards a photo is taken of this draft, to later spend quite some time manually turning these pixels into a piece of paper simulated on a computer screen. Usually a Microsoft Word document with an image made with Microsoft Visio or some mindmap tool. This is then often mailed out for the next meeting where many not seldomly realize that they actually misunderstood each other in the previous meeting. And all this time there's no (meta)data available useful for the organisation to find the work, let alone easily use or reason over. And if someone wants a different view on the same data, usually more manual work with the accompanied risk of errors is added
+Currently, many people (with their associative brains) use whiteboards to in front of, or with colleagues, draw nodes&arrows both with optional short texts or just one word. Often afterwards a photo is taken of this draft, to later spend quite some time manually turning these pixels into a piece of paper simulated on a computer screen. Usually a Microsoft Word document with an image made with Microsoft Visio or some mindmap tool. This is then often mailed out for the next meeting where many not seldomly realize that they actually misunderstood each other in the previous meeting. And all this time there's no (meta)data available useful for the organisation to find the work, let alone easily use or reason over. And if someone wants a different view on the same data, usually more manual work with the accompanied risk of errors is added
 
 I SUGGEST:
 - A REDESIGN FOR THE ABOVE
@@ -41,43 +41,7 @@ pssst: slowly working towards sloppy mockup in SVGinIframe.html, video captured 
 
 ![newest design, new name](RELATE.jpg)
 
-~~~~~~~~~NOTE TO SELF TO UPDATE
-Maak video opname waarin je met stem&cursor browsertabs uitlegt:
-
-INSPIRATIE:
-- vrijheid fysiek whiteboard,
-    later uitwerken foto blijkt lastig,
-    men blijkt iets anders te bedoelen.
-    Vaak nodes&edges & text snippets.
-- mindmap software slows down your train of thought
-    and results in a bag of pixels,
-    not a queryable network of data
-- metadateren is als administratief huiswerk
-    dat je eeuwig uitstelt
-    en te laat/weinig voordeel uithaalt.
-    Maak het bizar snel&makkelijk
-    en laat het direct waarde opleveren.
-    Wat is eerder dan brainstormfase?
-- We often keep switching
-    between a search context and a creation context.
-    Can we combine them?
-- Lots of FAIR data things are
-    implemented with Linked data technology.
-    Linked data is very powerful,
-    if you're into long arcane syntaxes,
-    mostly applied to big data sources,
-    while many small ones can be valuable too.
-
-So I came up with something else:
-
-show the GUI ()
-~~~~~~~~~
-## Reasoning behind the idea
-
-
-
-In our associative brains information is linked, forming a network.
-Many people communicate subsets visually through free-form mindmaps, or more structured diagrams, often on paper or whiteboards. Specialized mindmap software nowadays often is an (extra) manual step for nicer looking pictures, or uses a data format that lacks the standardized semantics to meaningfully connect datasets from different sources and have our digital assistants reason over combinations of them. The first advantage of allowing our digital assistants to help is lowering the chance that people think they mean the same thing, while in fact they mean something slightly or even completely DIFFERENT.
+## Linked data is an established technology, but in case you're not familiar with it: my shortest explanation
 
 Similar to our associative brains, in machines through standardized notation and vocabularies a similar associating is named Linked Data, simplified:
 - A statement called a **triple**: _Something A_ has some kind of _relation R_ with _something B_.
@@ -88,14 +52,6 @@ Similar to our associative brains, in machines through standardized notation and
 <img src="https://www.w3.org/TR/rdf11-primer/example-multiple-graphs-iris.jpg"></td></tr></table>
 The fun part of Linked Data is that you can query a combination of graphs, here the blue and the green, as if they were one graph on one system.
 You could for example ask (first in a technical language named SPARQL, later possibly taking in natural language processing options that do already exist): "Which persons are interested in stuff by Leonardo da Vinci?".
-
-
-Train of Thought is about combining the usability of a whiteboard with the power of Linked Data.
-
-## PURPOSE: to make a 'mindgraph' (a 2D selection in a editable higher-dimension graph)
-Very quickly hand draw a query-able graph combining new nodes and edges and those already available somewhere outside on the web, suggested in context (while also recording the process including audio).<br>
-A possible application: brainstorming about possible new research projects to take on and getting suggestions from the many research (meta)data out there and things related to it. Also it is a way to capture new (meta)data as early as possible, which is rewarded as early as possible with the generated suggestions in this tool.
-For data-quality reasons you don't want people to postpone making the metadata or not being helped doing it.
 
 ## A MENTAL MODEL FOR THE BROADER DATA MODEL OF THIS ENVISIONED WEB APP
 Imagine a horizontal transparent layer to hold the mindgraph:
