@@ -75,6 +75,8 @@ One allows the user sloppyness in manually drawing a graph, the other allows the
 - A query-builder and result visualizer as known from WikiData gives reasoning power, with almost no coding needed by the user still.
 - To not copy nodes or edges, RDF* will be used
 
+- Look into https://www.mindtools.com/amtcc5f/triz too
+
 # FROM HERE ON: EVEN OLDER, LIKELY OUTDATED, EARLY SKETCHES AND STUFF
 
 <img src="https://repository-images.githubusercontent.com/103260748/0559bb80-72a1-11eb-9df9-7ef50042c55f">
