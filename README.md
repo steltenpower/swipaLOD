@@ -21,7 +21,7 @@ PLUS TEST WHAT (INGREDIENTS) PEOPLE LIKE ABOUT IT AFTER A WHILE OR WHAT MAYBE IN
 
 
 WHAT IS DIFFERENT FROM WHAT PEOPLE MIGHT BE USED TO:
-- It actually invites other views and visualisations (e.g. <a href="https://github.com/steltenpower/swipaLOD/blob/main/README.md">storyLOD</a> and Zett@Muze), is aimed at being part of an ecosystem by using open fileformats, maybe APIs. It will not even try to be a general Linked Data tool for all situations, by design.
+- It actually invites other views and visualisations (e.g. <a href="https://github.com/steltenpower/storyLOD/blob/main/README.md">storyLOD</a> and Zett@Muze), is aimed at being part of an ecosystem by using open fileformats, maybe APIs. It will not even try to be a general Linked Data tool for all situations, by design.
 - Usually the involved data will not all simultaneously fit on the screen in a readable way. Though this is quite common for some relatively modern tools, to some it seems to be a strange idea, though don't your PDFs have way too many pages to be simultaneously legibly be rendered on your screen? A magnifying glass or property-based differences in styling could help
 - Search results won't always instantly pop up as datasets can be enormous. (un)availability of search results shouldn't decide the workflow of the user. Asynchronous is key.
 - Uncommon user interaction will take some time to get used to.
