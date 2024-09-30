@@ -212,3 +212,11 @@ OpenAlex.org seems a nice ScienceKnowledgeGraph to use in this.
 - https://www.w3.org/community/htmlvoc/
 
 - On concurring the general graph hairballs
+
+
+
+Het is de Expert Network Map: https://pub.fabcloud.io/project/expert-network-map/
+
+De broncode staat hier: https://gitlab.fabcloud.org/pub/project/expert-network-map
+
+The Expert Network Map allows users to visually identify Topic Experts in the Fab community. Topic Experts are Fab Academy students who are frequently referenced by peers. Fab Academy students often link each other's websites in their documentation, and mapping these connections creates a network intertwined across labs, years, and countries. The more times a student is referenced correlates with expertise level in specific subject areas. For current Fab Academy students, it can be extremely helpful to quickly identify Topic Experts to access their documentation for reference.
