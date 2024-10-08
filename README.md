@@ -222,3 +222,5 @@ De broncode staat hier: https://gitlab.fabcloud.org/pub/project/expert-network-m
 The Expert Network Map allows users to visually identify Topic Experts in the Fab community. Topic Experts are Fab Academy students who are frequently referenced by peers. Fab Academy students often link each other's websites in their documentation, and mapping these connections creates a network intertwined across labs, years, and countries. The more times a student is referenced correlates with expertise level in specific subject areas. For current Fab Academy students, it can be extremely helpful to quickly identify Topic Experts to access their documentation for reference.
 
 Just found out arrows.app, off which the basis seems a bit similar, but without the voice recognition. See https://github.com/neo4j-labs/arrows.app
+
+OpenAIRE graph / Open Alex
