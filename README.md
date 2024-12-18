@@ -224,3 +224,7 @@ The Expert Network Map allows users to visually identify Topic Experts in the Fa
 Just found out arrows.app, off which the basis seems a bit similar, but without the voice recognition. See https://github.com/neo4j-labs/arrows.app
 
 OpenAIRE graph / Open Alex
+
+https://sketch.zazuko.com
+
+https://marketplace.visualstudio.com/items?itemName=Zazuko.vscode-rdf-sketch
